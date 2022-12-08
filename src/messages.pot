@@ -1,10 +1,13 @@
+#. #-#-#-#-#  publiccode.pot (PACKAGE VERSION)  #-#-#-#-#
 #. extracted from ./i18n/publiccode.json
+#. #-#-#-#-#  translations.pot (PACKAGE VERSION)  #-#-#-#-#
+#. extracted from ./i18n/translations.json
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-01 15:33+0800\n"
+"POT-Creation-Date: 2022-12-08 10:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +62,8 @@ msgid ""
 "software for a potential user. The audience for this text should be that of "
 "users of the software, not developers. You can think of this text as the "
 "description of the software that would be in its website (if the software "
-"had one).This description can contain some basic markdown: *italic*, **bold**"
-", bullet points and [links](#)."
+"had one).This description can contain some basic markdown: *italic*, "
+"**bold**, bullet points and [links](#)."
 msgstr ""
 
 #: .en.pc.description.documentation.label
@@ -130,7 +133,6 @@ msgid "A list of awards won by the software."
 msgstr ""
 
 #: .en.pc.description.screenshots.label
-msgctxt ".en.pc.description.screenshots.label"
 msgid "Screenshots"
 msgstr ""
 
@@ -224,8 +226,8 @@ msgstr ""
 
 #: .en.pc.intendedAudience.countries.description
 msgid ""
-"This key explicitly includes certain countries in the intended audience, "
-"i.e. the software explicitly claims compliance with specific processes, "
+"This key explicitly includes certain countries in the intended audience, i."
+"e. the software explicitly claims compliance with specific processes, "
 "technologies or laws. All countries are specified using lowercase ISO 3166-1 "
 "alpha-2 two-letter country codes."
 msgstr ""
@@ -238,8 +240,8 @@ msgstr ""
 msgid ""
 "This key explicitly marks countries as NOT supported. This might be the case "
 "if there is a conflict between how software is working and a specific law, "
-"process or technology. All countries are specified using lowercase ISO 3166-"
-"1 alpha-2 two-letter country codes."
+"process or technology. All countries are specified using lowercase ISO "
+"3166-1 alpha-2 two-letter country codes."
 msgstr ""
 
 #: .en.pc.localisation.localisationReady.label
@@ -273,61 +275,49 @@ msgid "Country Extension version"
 msgstr ""
 
 #: .en.pc.it.riuso.codiceIPA.label
-msgctxt ".en.pc.it.riuso.codiceIPA.label"
 msgid "Codice iPA dell'ente (obbligatorio per Pubbliche Amministrazioni)"
 msgstr ""
 
 #: .en.pc.it.riuso.codiceIPA.description
-msgctxt ".en.pc.it.riuso.codiceIPA.description"
 msgid ""
-"Codice dell'ente all'interno dell'Indice delle Pubbliche Amministrazioni ("
-"codice iPA, https://indicepa.gov.it/)."
+"Codice dell'ente all'interno dell'Indice delle Pubbliche Amministrazioni "
+"(codice iPA, https://indicepa.gov.it/)."
 msgstr ""
 
 #: .en.pc.it.piattaforme.label
-msgctxt ".en.pc.it.piattaforme.label"
-".en.pc.it.piattaforme.label"
 msgid "Piattaforme"
 msgstr ""
 
 #: .en.pc.it.piattaforme.spid.label
-msgctxt ".en.pc.it.piattaforme.spid.label"
 msgid "SPID"
 msgstr ""
 
 #: .en.pc.it.piattaforme.spid.description
-msgctxt ".en.pc.it.piattaforme.spid.description"
 msgid ""
 "Se presente e impostato a yes, il software si interfaccia con SPID - il "
 "Sistema Pubblico di Identità Digitale."
 msgstr ""
 
 #: .en.pc.it.piattaforme.cie.label
-msgctxt ".en.pc.it.piattaforme.cie.label"
 msgid "CIE"
 msgstr ""
 
 #: .en.pc.it.piattaforme.cie.description
-msgctxt ".en.pc.it.piattaforme.cie.description"
 msgid ""
 "Se presente e impostato a yes, il software si interfaccia con la Carta di "
 "Identità Elettronica."
 msgstr ""
 
 #: .en.pc.it.piattaforme.anpr.label
-msgctxt ".en.pc.it.piattaforme.anpr.label"
 msgid "ANPR"
 msgstr ""
 
 #: .en.pc.it.piattaforme.anpr.description
 msgctxt ".en.pc.it.piattaforme.anpr.description"
-".en.pc.it.piattaforme.anpr.description"
-".en.pc.it.piattaforme.anpr.description"
 msgid "Se presente e impostato a yes, il software si interfaccia con PagoPA."
 msgstr ""
 
 #: .en.pc.it.piattaforme.pagopa.label
-msgctxt ".en.pc.it.piattaforme.pagopa.label"
 msgid "pagoPA"
 msgstr ""
 
@@ -337,53 +327,44 @@ msgid "Se presente e impostato a yes, il software si interfaccia con PagoPA."
 msgstr ""
 
 #: .en.pc.it.conforme.label
-msgctxt ".en.pc.it.conforme.label"
 msgid "Conforme"
 msgstr ""
 
 #: .en.pc.it.conforme.lineeGuidaDesign.label
-msgctxt ".en.pc.it.conforme.lineeGuidaDesign.label"
 msgid "Linee guida design"
 msgstr ""
 
 #: .en.pc.it.conforme.lineeGuidaDesign.description
-msgctxt ".en.pc.it.conforme.lineeGuidaDesign.description"
 msgid ""
 "Se presente e impostato a yes, il software è conforme alle linee guida di "
 "design."
 msgstr ""
 
 #: .en.pc.it.conforme.modelloInteroperabilita.label
-msgctxt ".en.pc.it.conforme.modelloInteroperabilita.label"
 msgid "Interoperabile"
 msgstr ""
 
 #: .en.pc.it.conforme.modelloInteroperabilita.description
-msgctxt ".en.pc.it.conforme.modelloInteroperabilita.description"
 msgid ""
 "Se presente e impostato a yes, il software è conforme alle linee guida "
 "sull'interoperabilità.Riferimento normativo: Art. 73 del CAD."
 msgstr ""
 
 #: .en.pc.it.conforme.misureMinimeSicurezza.label
-msgctxt ".en.pc.it.conforme.misureMinimeSicurezza.label"
 msgid "Misure minime sicurezza"
 msgstr ""
 
 #: .en.pc.it.conforme.misureMinimeSicurezza.description
-msgctxt ".en.pc.it.conforme.misureMinimeSicurezza.description"
 msgid ""
 "Se presente e impostato a yes, il software è conforme alle Misure minime di "
 "sicurezza ICT per le Pubbliche amministrazioni."
 msgstr ""
 
 #: .en.pc.it.conforme.gdpr.label
-msgctxt ".en.pc.it.conforme.gdpr.label"
 msgid "GDPR"
 msgstr ""
 
 #: .en.pc.it.conforme.gdpr.description
-msgctxt ".en.pc.it.conforme.gdpr.description"
 msgid "Se presente e impostato a yes, il software rispetta il GDPR."
 msgstr ""
 
@@ -425,8 +406,8 @@ msgid ""
 msgstr ""
 
 #: .en.pc.maintenance.contacts.name.label
-msgctxt ".en.pc.maintenance.contacts.name.label"
-".en.pc.maintenance.contacts.name.label"
+msgctxt ""
+".en.pc.maintenance.contacts.name.label.en.pc.maintenance.contacts.name.label"
 msgid "Name"
 msgstr ""
 
@@ -442,13 +423,11 @@ msgstr ""
 msgid ""
 "This key contains the e-mail address of the technical contact. It must be an "
 "email address of where the technical contact can be directly reached; do NOT "
-"populate this key with mailing-lists or generic contact points like info@"
-"acme.inc. "
+"populate this key with mailing-lists or generic contact points like "
+"info@acme.inc. "
 msgstr ""
 
 #: .en.pc.maintenance.contacts.email.label
-msgctxt ".en.pc.maintenance.contacts.email.label"
-".en.pc.maintenance.contacts.email.label"
 msgid "Email"
 msgstr ""
 
@@ -566,12 +545,10 @@ msgid "whether the dependency is optional or mandatory"
 msgstr ""
 
 #: .en.pc.publiccodeYmlVersion.label
-msgctxt ".en.pc.publiccodeYmlVersion.label"
 msgid "publiccodeYmlVersion"
 msgstr ""
 
 #: .en.pc.publiccodeYmlVersion.description
-msgctxt ".en.pc.publiccodeYmlVersion.description"
 msgid "hidden field for actual publiccode version"
 msgstr ""
 
@@ -612,7 +589,6 @@ msgid ""
 msgstr ""
 
 #: .en.pc.applicationSuite.label
-msgctxt ".en.pc.applicationSuite.label"
 msgid "Application Suite"
 msgstr ""
 
@@ -661,15 +637,15 @@ msgid ""
 msgstr ""
 
 #: .en.pc.logo.label
-msgctxt ".en.pc.logo.label"
 msgid "Logo"
 msgstr ""
 
 #: .en.pc.logo.description
 msgid ""
-"This key contains the logo of the software. Logos should be in vector format;"
-" raster formats are only allowed as a fallback. In this case, they should be "
-"transparent PNGs, minimum 1000px of width. Acceptable formats: SVG, SVGZ, PNG"
+"This key contains the logo of the software. Logos should be in vector "
+"format; raster formats are only allowed as a fallback. In this case, they "
+"should be transparent PNGs, minimum 1000px of width. Acceptable formats: "
+"SVG, SVGZ, PNG"
 msgstr ""
 
 #: .en.pc.monochromeLogo.label
@@ -700,7 +676,6 @@ msgid "Allowed values: standalone, addon, library, configurationFiles"
 msgstr ""
 
 #: .en.pc.roadmap.label
-msgctxt ".en.pc.roadmap.label"
 msgid "Roadmap"
 msgstr ""
 
@@ -751,7 +726,6 @@ msgid ""
 msgstr ""
 
 #: .en.pc.inputTypes.label
-msgctxt ".en.pc.inputTypes.label"
 msgid "Input Types"
 msgstr ""
 
@@ -763,7 +737,6 @@ msgid ""
 msgstr ""
 
 #: .en.pc.outputTypes.label
-msgctxt ".en.pc.outputTypes.label"
 msgid "Output Types"
 msgstr ""
 
@@ -774,869 +747,15 @@ msgid ""
 "output, you can skip this field or use application/x.empty."
 msgstr ""
 
-#: .it.pc.description.localisedName.label
-msgid "Nome Localizzato"
-msgstr ""
-
-#: .it.pc.description.localisedName.description
-msgid ""
-"Questa chiave rappresenta un’opportunità di tradurre il nome in una lingua "
-"specifica. Contiene il nome pubblico (corto) del prodotto. Dovrebbe essere "
-"il nome con il quale la maggioranza delle persone normalmente si riferisce "
-"al software. Nel caso in cui il software abbia sia un nome “interno” che uno "
-"commerciale, è preferibile utilizzare quello commerciale."
-msgstr ""
-
-#: .it.pc.description.genericName.label
-msgid "Nome Generico"
-msgstr ""
-
-#: .it.pc.description.genericName.description
-msgid ""
-"Questa chiave rappresenta il “Nome generico”, riferito alla categoria "
-"specifica alla quale il software appartiene. Normalmente è possibile trovare "
-"il nome generico nella presentazione del software, quando si scrive una "
-"frase del tipo: “Il software xxx è un yyy”. Esempi degni di nota includono “"
-"Editor di Testi”, “Word Processor”, “Web Browser”, “Chat” e così via. Il "
-"nome generico può avere una lunghezza fino a 35 caratteri."
-msgstr ""
-
-#: .it.pc.description.shortDescription.label
-msgid "Descrizione Breve"
-msgstr ""
-
-#: .it.pc.description.shortDescription.description
-msgid ""
-"Questa chiave contiene una breve descrizione del software. Dovrebbe essere "
-"una singola linea contenente una singola frase. L’estensione massima "
-"consentita è di 150 caratteri."
-msgstr ""
-
-#: .it.pc.description.longDescription.label
-msgid "Descrizione Estesa"
-msgstr ""
-
-#: .it.pc.description.longDescription.description
-msgid ""
-"Questa chiave contiene una descrizione più lunga del software, con una "
-"lunghezza che può variare da 500 a 1000 caratteri. Questa chiave è pensata "
-"per fornire una panoramica delle caratteristiche del software per un "
-"potenziale utente. Il destinatario di questo testo dovrebbe essere l’utente "
-"finale, non nello sviluppatore. E’ possibile pensare a questo testo come "
-"alla descrizione del software che potrebbe stare nel sito web (nel caso in "
-"cui il software ne possieda uno).Questa descrizione può contenere del "
-"Markdown base: *italic*, **bold**, elenchi puntati e [link](#)."
-msgstr ""
-
-#: .it.pc.description.documentation.label
-msgid "Documentazione"
-msgstr ""
-
-#: .it.pc.description.documentation.description
-msgid ""
-"Questa chiave contiene un riferimento alla documentazione lato utente (non "
-"lato sviluppatore) Questo valore deve essere una URL che punta ad una "
-"versione ospitata della documentazione.È suggerito che questa URL punti ad "
-"una versione ospitata della documentazione che sia direttamente leggibile "
-"utilizzando un comune web browser sia in formato desktop che mobile. La "
-"documentazione dovrebbe essere renderizzata in HTML e navigabile come un "
-"sito web (con un indice, una barra di ricerca, etc.).Se la documentazione "
-"dovesse invece essere disponibile esclusivamente sotto forma di documento, è "
-"possibile inserire il link diretto per vedere/scaricare tale documento, "
-"sotto forma di URL, in questa chiave. E’ consigliabile trattare la "
-"documentazione come parte del codice sorgente e dunque gestirla tramite "
-"commit sul repository del codice sorgente. In questo modo, sarà possibile "
-"fornire una URL diretta alla piattaforma di hosting del codice (ad es., "
-"GitHub URL al file). E’ preferibile utilizzare formati aperti quali PDF o "
-"ODT per avere la massima interoperabilità. Qualunque sia il formato della "
-"documentazione, è importante ricordare di rilasciarne i sorgenti coperti da "
-"licenza aperta, possibilmente effettuandone un commit all’interno del "
-"repository stesso."
-msgstr ""
-
-#: .it.pc.description.apiDocumentation.label
-msgid "Documentazione API"
-msgstr ""
-
-#: .it.pc.description.apiDocumentation.description
-msgid ""
-"Questa chiave contiene un riferimento alla documentazione delle API del "
-"software. Il valore deve essere una URL verso una versione ospitata della "
-"documentazione.E’ suggerito che questa URL punti ad una versione ospitata "
-"della documentazione che sia direttamente leggibile utilizzando un comune "
-"web browser. La documentazione dovrebbe essere renderizzata in HTML e "
-"navigabile come un sito web (con un indice, una barra di ricerca, etc.), e "
-"se c’è un riferimento ad un deployment di prova, questo dovrebbe offrire un’"
-"interfaccia navigabile (e.g. Swagger).Se la documentazione dovesse invece "
-"essere disponibile esclusivamente sotto forma di documento, è possibile "
-"inserire il link diretto per vedere/scaricare tale documento, sotto forma di "
-"URL, in questa chiave. E’ consigliabile trattare la documentazione come "
-"parte del codice sorgente e dunque gestirla tramite commit sul repository "
-"del codice sorgente. In questo modo, sarà possibile fornire una URL diretta "
-"alla piattaforma di hosting del codice (ad es., GitHub URL al file). E’ "
-"preferibile utilizzare formati aperti quali PDF o ODT per avere laQualunque "
-"sia il formato della documentazione, è importante ricordare di rilasciarne i "
-"sorgenti coperti da licenza aperta, possibilmente effettuandone un commit "
-"all’interno del repository stesso."
-msgstr ""
-
-#: .it.pc.description.features.label
-msgctxt ".it.pc.description.features.label"
-msgid "Funzionalità"
-msgstr ""
-
-#: .it.pc.description.features.description
-msgid ""
-"Questa chiave contiene una lista di feature del software, che descriva le "
-"possibilità offerte dallo stesso. Il target di questo testo sono i decisori "
-"pubblici che potranno decidere di adottarlo o modificarlo. Per questo "
-"motivo, queste feature non devono riferirsi agli sviluppatori: invece di "
-"elencare le caratteristiche tecniche riferite ai dettagli implementativi, è "
-"preferibile elencare le funzionalità lato utente.Anche se questa chiave è "
-"obbligatoria, non c’è un limite minimo o massimo sul numero di feature da "
-"elencare in questa chiave. Ogni feature deve però avere un massimo di 100 "
-"caratteri.Il numero di feature suggerito da elencare è tra 5 e 20, a seconda "
-"della dimensione del software e della sua complessità. Non c’è bisogno di "
-"fare una lista esaustiva, dal momento che gli utenti hanno sempre a "
-"disposizione la documentazione per reperire ulteriori informazioni."
-msgstr ""
-
-#: .it.pc.description.features.value.label
-msgctxt ".it.pc.description.features.value.label"
-msgid "Funzionalità"
-msgstr ""
-
-#: .it.pc.description.features.value.description
-msgctxt ".it.pc.description.features.value.description"
-msgid ""
-msgstr ""
-
-#: .it.pc.description.awards.label
-msgid "Premi"
-msgstr ""
-
-#: .it.pc.description.awards.description
-msgid "Una lista di premi assegnati al software."
-msgstr ""
-
-#: .it.pc.description.screenshots.label
-msgctxt ".it.pc.description.screenshots.label"
-msgid "Screenshots"
-msgstr ""
-
-#: .it.pc.description.screenshots.description
-msgid ""
-"Questa chiave indica una o più immagini del software (screenshot). Queste "
-"hanno lo scopo di dare una panoramica dell’aspetto del software e del suo "
-"funzionamento. Il valore può essere il percorso relativo al file a partire "
-"dalla root del repository, oppure una URL assoluta che punta all’immagine in "
-"versione raw. In entrambi i casi, il file deve risiedere all’interno del "
-"medesimo repository che contiene il publiccode.yml."
-msgstr ""
-
-#: .it.pc.description.videos.label
-msgid "Video"
-msgstr ""
-
-#: .it.pc.description.videos.description
-msgid ""
-"Questa chiave contiene una o più URL di video che mostrano il funzionamento "
-"del software. Così come gli screenshot, i video dovrebbero essere usati per "
-"dare una rapida panoramica sull’aspetto e le funzionalità del software. I "
-"video devono essere ospitati su una piattaforma di video sharing che "
-"supporti lo standard oEmbed; le opzioni più popolari sono YouTube e "
-"Vimeo.Nota bene: dal momento che costituisce parte integrante della "
-"documentazione, è opportuno che il video sia pubblicato con una licenza "
-"aperta."
-msgstr ""
-
-#: .it.pc.legal.license.label
-msgid "Licenza"
-msgstr ""
-
-#: .it.pc.legal.license.description
-msgid ""
-"Questa stringa descrive la licenza con cui il software è distribuito. La "
-"stringa deve contenere un’espressione SPDX valida che si riferisca ad una (o "
-"più) licenze open-source. Per avere ulteriori informazioni a riguardo è "
-"possibile visitare la documentazione SPDX."
-msgstr ""
-
-#: .it.pc.legal.mainCopyrightOwner.label
-msgid "Principale Proprietario del Copyright"
-msgstr ""
-
-#: .it.pc.legal.mainCopyrightOwner.description
-msgid ""
-"Questa stringa descrive l’entità che possiede il copyright sulla maggior "
-"parte del codice presente nel repository. Normalmente, questa è la linea che "
-"viene riportata con il simbolo di copyright all’inizio della maggior parte "
-"dei file nel repository.E’ possibile elencare diversi proprietari se "
-"necessario, usando una frase in inglese. E’ anche possibile riferirsi ad una "
-"community o ad un gruppo di persone come ad esempio “Linus Torvalds and all "
-"Linux contributors”.Nel caso in cui non sia possibile individuare il maggior "
-"proprietario di copyright, è possibile omettere questa chiave; in questi "
-"casi, se il repository ha un file contenente il nome degli autori, è "
-"possibile puntare a quel file attraverso legal/authorsFile (vedi più sotto)."
-msgstr ""
-
-#: .it.pc.legal.repoOwner.label
-msgid "Proprietario Repository"
-msgstr ""
-
-#: .it.pc.legal.repoOwner.description
-msgid ""
-"Questa stringa descrive l’entità che possiede il repository; questa può "
-"essere o non essere la stessa che possiede il copyright del codice stesso. "
-"Ad esempio, nel caso di un fork del software originale, il repoOwner è "
-"probabilmente diverso dal mainCopyrightOwner."
-msgstr ""
-
-#: .it.pc.legal.authorsFile.label
-msgid "File Autori"
-msgstr ""
-
-#: .it.pc.legal.authorsFile.description
-msgid ""
-"Qualche software open-source adotta una convenzione che identifica il "
-"detentore del copyright attraverso un file elencante tutte le entità che "
-"possiedono il copyright. Questo è comune nei progetti fortemente sostenuti "
-"dalla community ove esistono diversi contributori esterni e non c’è un "
-"chiaro singolo detentore del copyright. In questi casi, questa chiave può "
-"essere usata per riferirsi al suddetto file degli autori, usando un percorso "
-"relativo alla radice (root) del repository."
-msgstr ""
-
-#: .it.pc.intendedAudience.scope.label
-msgid "Scopo"
-msgstr ""
-
-#: .it.pc.intendedAudience.scope.description
-msgid ""
-"Questa chiave contiene una lista di tag che rappresentano il campo di "
-"applicazione del software.I tag consentiti sono elencati nella Lista dei "
-"campi di applicazione."
-msgstr ""
-
-#: .it.pc.intendedAudience.countries.label
-msgid "Paesi"
-msgstr ""
-
-#: .it.pc.intendedAudience.countries.description
-msgid ""
-"Questa chiave include in modo esplicito alcuni Paesi tra il pubblico "
-"previsto, i.e., il software rivendica esplicitamente la conformità con "
-"processi specifici, tecnologie o leggi. Tutti i Paesi sono specificati "
-"usando country code a due lettere seguendo lo standard ISO 3166-1 alpha-2."
-msgstr ""
-
-#: .it.pc.intendedAudience.unsupportedCountries.label
-msgid "Paesi non supportati"
-msgstr ""
-
-#: .it.pc.intendedAudience.unsupportedCountries.description
-msgid ""
-"Questa chiave contrassegna esplicitamente i Paesi NON supportati. Questa "
-"situazione potrebbe verificarsi nel momento in cui esista un conflitto tra "
-"la modalità di funzionamento del software ed una legge specifica, un "
-"processo o una tecnologia. Tutti i Paesi sono specificati usando country "
-"code a due lettere seguendo lo standard ISO 3166-1 alpha-2."
-msgstr ""
-
-#: .it.pc.localisation.localisationReady.label
-msgid "Supporto alla Localizzazione"
-msgstr ""
-
-#: .it.pc.localisation.localisationReady.description
-msgid ""
-"Se yes, il software ha l’infrastruttura o è stato progettato per essere "
-"multi-lingua. Ad ogni modo, questo campo non pregiudica l’esistenza di una "
-"traduzione in altre lingue ma si riferisce esclusivamente all’aspetto "
-"tecnologico. Per l’elenco delle lingue disponibili si veda la chiave "
-"localisation/availableLanguages."
-msgstr ""
-
-#: .it.pc.localisation.availableLanguages.label
-msgid "Lingue Disponibili"
-msgstr ""
-
-#: .it.pc.localisation.availableLanguages.description
-msgid ""
-"Se presente, questa è la lista di lingue in cui è disponibile il software. "
-"Ovviamente, questa lista dovrà contenere almeno una lingua. Si ricorda che "
-"il primary language subtag non può essere omesso, come specificato dal BCP "
-"47."
-msgstr ""
-
-#: .it.pc.it.countryExtensionVersion.label
-msgctxt ".it.pc.it.countryExtensionVersion.label"
-msgid "Versione Estenzione Nazionale"
-msgstr ""
-
-#: .it.pc.it.countryExtensionVersion.description
-msgctxt ".it.pc.it.countryExtensionVersion.description"
-msgid "Versione Estenzione Nazionale"
-msgstr ""
-
-#: .it.pc.it.riuso.codiceIPA.label
-msgctxt ".it.pc.it.riuso.codiceIPA.label"
-msgid "Codice iPA dell'ente (obbligatorio per Pubbliche Amministrazioni)"
-msgstr ""
-
-#: .it.pc.it.riuso.codiceIPA.description
-msgctxt ".it.pc.it.riuso.codiceIPA.description"
-msgid ""
-"Codice dell'ente all'interno dell'Indice delle Pubbliche Amministrazioni ("
-"codice iPA, https://indicepa.gov.it/)."
-msgstr ""
-
-#: .it.pc.it.piattaforme.label
-msgctxt ".it.pc.it.piattaforme.label"
-msgid "Piattaforme"
-msgstr ""
-
-#: .it.pc.it.piattaforme.spid.label
-msgctxt ".it.pc.it.piattaforme.spid.label"
-msgid "SPID"
-msgstr ""
-
-#: .it.pc.it.piattaforme.spid.description
-msgctxt ".it.pc.it.piattaforme.spid.description"
-msgid ""
-"Se presente e impostato a yes, il software si interfaccia con SPID - il "
-"Sistema Pubblico di Identità Digitale."
-msgstr ""
-
-#: .it.pc.it.piattaforme.cie.label
-msgctxt ".it.pc.it.piattaforme.cie.label"
-msgid "CIE"
-msgstr ""
-
-#: .it.pc.it.piattaforme.cie.description
-msgctxt ".it.pc.it.piattaforme.cie.description"
-msgid ""
-"Se presente e impostato a yes, il software si interfaccia con la Carta di "
-"Identità Elettronica."
-msgstr ""
-
-#: .it.pc.it.piattaforme.anpr.label
-msgctxt ".it.pc.it.piattaforme.anpr.label"
-msgid "ANPR"
-msgstr ""
-
-#: .it.pc.it.piattaforme.anpr.description
-msgctxt ".it.pc.it.piattaforme.anpr.description"
-msgid "Se presente e impostato a yes, il software si interfaccia con PagoPA."
-msgstr ""
-
-#: .it.pc.it.piattaforme.pagopa.label
-msgctxt ".it.pc.it.piattaforme.pagopa.label"
-msgid "pagoPA"
-msgstr ""
-
-#: .it.pc.it.piattaforme.pagopa.description
-msgctxt ".it.pc.it.piattaforme.pagopa.description"
-msgid "Se presente e impostato a yes, il software si interfaccia con PagoPA."
-msgstr ""
-
-#: .it.pc.it.conforme.label
-msgctxt ".it.pc.it.conforme.label"
-msgid "Conforme"
-msgstr ""
-
-#: .it.pc.it.conforme.lineeGuidaDesign.label
-msgctxt ".it.pc.it.conforme.lineeGuidaDesign.label"
-msgid "Linee guida design"
-msgstr ""
-
-#: .it.pc.it.conforme.lineeGuidaDesign.description
-msgctxt ".it.pc.it.conforme.lineeGuidaDesign.description"
-msgid ""
-"Se presente e impostato a yes, il software è conforme alle linee guida di "
-"design."
-msgstr ""
-
-#: .it.pc.it.conforme.modelloInteroperabilita.label
-msgctxt ".it.pc.it.conforme.modelloInteroperabilita.label"
-msgid "Interoperabile"
-msgstr ""
-
-#: .it.pc.it.conforme.modelloInteroperabilita.description
-msgctxt ".it.pc.it.conforme.modelloInteroperabilita.description"
-msgid ""
-"Se presente e impostato a yes, il software è conforme alle linee guida "
-"sull'interoperabilità.Riferimento normativo: Art. 73 del CAD."
-msgstr ""
-
-#: .it.pc.it.conforme.misureMinimeSicurezza.label
-msgctxt ".it.pc.it.conforme.misureMinimeSicurezza.label"
-msgid "Misure minime sicurezza"
-msgstr ""
-
-#: .it.pc.it.conforme.misureMinimeSicurezza.description
-msgctxt ".it.pc.it.conforme.misureMinimeSicurezza.description"
-msgid ""
-"Se presente e impostato a yes, il software è conforme alle Misure minime di "
-"sicurezza ICT per le Pubbliche amministrazioni."
-msgstr ""
-
-#: .it.pc.it.conforme.gdpr.label
-msgctxt ".it.pc.it.conforme.gdpr.label"
-msgid "GDPR"
-msgstr ""
-
-#: .it.pc.it.conforme.gdpr.description
-msgctxt ".it.pc.it.conforme.gdpr.description"
-msgid "Se presente e impostato a yes, il software rispetta il GDPR."
-msgstr ""
-
-#: .it.pc.maintenance.type.label
-msgid "Tipo Manutenzione"
-msgstr ""
-
-#: .it.pc.maintenance.type.description
-msgid ""
-"Questa chiave descrive come il software è attualmente manutenuto. Le chiavi "
-"sono: internal - significa che il software è manutenuto internamente dal "
-"proprietario del repository; contract - significa che c’è un contratto "
-"commerciale che lega un’entità alla manutenzione del software; community - "
-"significa che il software è attualmente manutenuto da una o più persone che "
-"offrono il loro tempo al progetto; none - significa che il software non è al "
-"momento manutenuto."
-msgstr ""
-
-#: .it.pc.maintenance.contacts.label
-msgid "Contatti"
-msgstr ""
-
-#: .it.pc.maintenance.contacts.description
-msgid ""
-"Uno o più contatti di chi sta mantenendo il software.Questa chiave descrive "
-"le persone tecniche che attualmente sono responsabili della manutenzione del "
-"software. Tutti i contatti devono essere di una persona fisica, non un’"
-"azienda o un’organizzazione. Se un contatto funge da rappresentante di un’"
-"istituzione, questo rapporto deve essere esplicitato attraverso la chiave "
-"affiliation.Nel caso di un accordo commerciale (o una catena di tali accordi)"
-", specificare le entità finali che sono effettivamente contrattate per "
-"fornire la manutenzione. Non specificare il proprietario del software a meno "
-"che sia tecnicamente coinvolto anche nella manutenzione del prodotto"
-msgstr ""
-
-#: .it.pc.maintenance.contacts.name.description
-msgid ""
-"Obbligatoria - Questa chiave contiene il nome completo di uno dei contatti "
-"tecnici. Deve essere una persona reale; NON popolare questa chiave con "
-"informazioni di contatto generiche, dipartimenti dell’azienda, associazioni, "
-"etc."
-msgstr ""
-
-#: .it.pc.maintenance.contacts.name.label
-msgctxt ".it.pc.maintenance.contacts.name.label"
-".it.pc.maintenance.contacts.name.label"
-msgid "Nome"
-msgstr ""
-
-#: .it.pc.maintenance.contacts.phone.description
-msgid ""
-"Numero telefonico (con prefisso internazionale). Questa chiave deve essere "
-"una stringa."
-msgstr ""
-
-#: .it.pc.maintenance.contacts.phone.label
-msgid "Telefono"
-msgstr ""
-
-#: .it.pc.maintenance.contacts.email.description
-msgctxt ".it.pc.maintenance.contacts.email.description"
-msgid ""
-"Questa chiave contiene l’indirizzo email del contatto tecnico. Deve essere "
-"un indirizzo email per il contatto diretto con il tecnico; NON popolare "
-"questa chiave con mailing-list o punti di contatto generico tipo “info@acme."
-"inc”. Questo indirizzo email non deve essere offuscato. Per migliorare la "
-"resistenza contro la raccolta di indirizzi email, usare \\x64 per sostituire "
-"@, siccome questo è permesso dalle specifiche YAML."
-msgstr ""
-
-#: .it.pc.maintenance.contacts.email.label
-msgctxt ".it.pc.maintenance.contacts.email.label"
-msgid "Email"
-msgstr ""
-
-#: .it.pc.maintenance.contacts.affiliation.description
-msgid ""
-"Questa chiave contiene informazioni esplicite sui contatti tecnici. Nel caso "
-"esistano diversi maintainer, questa chiave può essere usata per creare "
-"relazioni tra diversi contatti tecnici e entità di manutenzione. Ad esempio, "
-"può contenere il nome di un’azienda, il nome di un’associazione, etc"
-msgstr ""
-
-#: .it.pc.maintenance.contacts.affiliation.label
-msgid "Affiliazione"
-msgstr ""
-
-#: .it.pc.maintenance.contractors.label
-msgid "Contratto di Manutenzione"
-msgstr ""
-
-#: .it.pc.maintenance.contractors.description
-msgid ""
-"Questa chiave descrive l’entità o le entità, se ce ne sono, che attualmente "
-"hanno un contratto di manutenzione del software. Queste possono essere "
-"aziende, organizzazioni o altri nomi collettivi."
-msgstr ""
-
-#: .it.pc.maintenance.contractors.name.label
-msgctxt ".it.pc.maintenance.contractors.name.label"
-msgid "Nome"
-msgstr ""
-
-#: .it.pc.maintenance.contractors.name.description
-msgid ""
-"Obbligatoria - Il nome del contractor, sia esso un’azienda o una persona "
-"fisica."
-msgstr ""
-
-#: .it.pc.maintenance.contractors.until.label
-msgctxt ".it.pc.maintenance.contractors.until.label"
-msgid "Email"
-msgstr ""
-
-#: .it.pc.maintenance.contractors.until.description
-msgctxt ".it.pc.maintenance.contractors.until.description"
-msgid ""
-"Questa chiave contiene l’indirizzo email del contatto tecnico. Deve essere "
-"un indirizzo email per il contatto diretto con il tecnico; NON popolare "
-"questa chiave con mailing-list o punti di contatto generico tipo “info@acme."
-"inc”. Questo indirizzo email non deve essere offuscato. Per migliorare la "
-"resistenza contro la raccolta di indirizzi email, usare \\x64 per sostituire "
-"@, siccome questo è permesso dalle specifiche YAML."
-msgstr ""
-
-#: .it.pc.maintenance.contractors.website.label
-msgid "Website"
-msgstr ""
-
-#: .it.pc.maintenance.contractors.website.description
-msgid ""
-"Questa chiave punta al sito del maintainer. Può puntare al principale sito "
-"istituzionale, o ad una pagina o sito più specifica."
-msgstr ""
-
-#: .it.pc.dependsOn.label
-msgid "Dipendenze"
-msgstr ""
-
-#: .it.pc.dependsOn.description
-msgid ""
-"Questa sezione fornisce una panoramica delle dipendenze a livello di sistema "
-"necessarie per installare ed utilizzare il software.Nota bene: non elencare "
-"le dipendenze a livello di codice sorgente (ad es., librerie software usate)"
-", e focalizza solo su dipendenze di sistema e/o a runtime che devono essere "
-"installate e manutenute separatamente. Ad esempio, un database è un buon "
-"esempio di questo tipo di dipendenza."
-msgstr ""
-
-#: .it.pc.dependsOn.type.label
-msgid "Tipo"
-msgstr ""
-
-#: .it.pc.dependsOn.name.label
-msgctxt ".it.pc.dependsOn.name.label"
-msgid "Nome"
-msgstr ""
-
-#: .it.pc.dependsOn.name.description
-msgid "Obbligatoria - Il nome della dipendenza (e.g. MySQL, NFC Reader)."
-msgstr ""
-
-#: .it.pc.dependsOn.versionMin.label
-msgid "Versione Minima"
-msgstr ""
-
-#: .it.pc.dependsOn.versionMin.description
-msgid "la prima versione compatibile;"
-msgstr ""
-
-#: .it.pc.dependsOn.versionMax.label
-msgid "Version Massima"
-msgstr ""
-
-#: .it.pc.dependsOn.versionMax.description
-msgid "l’ultima versione compatibile;"
-msgstr ""
-
-#: .it.pc.dependsOn.version.label
-msgid "Versione Esatta"
-msgstr ""
-
-#: .it.pc.dependsOn.version.description
-msgid ""
-"l’unica versione major con la quale il software è compatibile. Si assume la "
-"compatibilità con tutte le patch e i bugfix che saranno applicati "
-"successivamente a questa versione;"
-msgstr ""
-
-#: .it.pc.dependsOn.optional.label
-msgid "Opzionale"
-msgstr ""
-
-#: .it.pc.dependsOn.optional.description
-msgid "se la dipendenza è opzionale o obbligatoria."
-msgstr ""
-
-#: .it.pc.publiccodeYmlVersion.label
-msgctxt ".it.pc.publiccodeYmlVersion.label"
-msgid "publiccodeYmlVersion"
-msgstr ""
-
-#: .it.pc.publiccodeYmlVersion.description
-msgctxt ".it.pc.publiccodeYmlVersion.description"
-msgid "hidden field for actual publiccode version"
-msgstr ""
-
-#: .it.pc.name.label
-msgid "Nome del software"
-msgstr ""
-
-#: .it.pc.name.description
-msgid ""
-"Questa chiave contiene il nome del software. Contiene il nome (abbreviato) "
-"pubblico del prodotto, che può essere tradotto nella sezione specifica "
-"chiamata localisation. Dovrebbe essere il nome con il quale la maggior parte "
-"delle persone si riferisce al suddetto software. Nel caso in cui il software "
-"abbia sia un nome in “codice” interno che uno commerciale, è preferibile "
-"usare il nome commerciale."
-msgstr ""
-
-#: .it.pc.releaseDate.label
-msgid "Data di rilascio"
-msgstr ""
-
-#: .it.pc.releaseDate.description
-msgid ""
-"Questa chiave contiene la data di ultimo rilascio del software. Questa data "
-"è obbligatoria se il software è stato rilasciato almeno una volta e dunque "
-"esiste un numero di versione."
-msgstr ""
-
-#: .it.pc.url.label
-msgid "URL Repository"
-msgstr ""
-
-#: .it.pc.url.description
-msgid ""
-"Un identificatore unico per questo software. Questa stringa deve essere una "
-"URL che punta al repository di codice sorgente (git, svn, …) nel quale il "
-"software è pubblicato. Se il repository è disponibile sotto diversi "
-"protocolli, preferire URL HTTP/HTTPS che non richiedono l’autenticazione.I "
-"fork creati con lo scopo di contribuire upstream non devono modificare "
-"questo file; questo aiuta i software che fanno il parsing di publiccode.yml "
-"a saltare immediatamente i fork tecnici. Al contrario, un fork completo che "
-"sarà manutenuto in modo separato rispetto al software originale, dovrebbe "
-"modificare questa linea per essere trattato come una variante distinta.Vedi "
-"Fork e varianti per una descrizione completa del significato di variante "
-"software e di come gestire i fork sia lato parser che lato autore."
-msgstr ""
-
-#: .it.pc.applicationSuite.label
-msgctxt ".it.pc.applicationSuite.label"
-msgid "Application Suite"
-msgstr ""
-
-#: .it.pc.applicationSuite.description
-msgid ""
-"Questa chiave contiene il nome della “suite” alla quale il software "
-"appartiene."
-msgstr ""
-
-#: .it.pc.landingURL.label
-msgid "URL Landing Page"
-msgstr ""
-
-#: .it.pc.landingURL.description
-msgid ""
-"Se la chiave url non porta ad una pagina leggibile da un umano, ma serve "
-"solo ad indirizzare un client di source control verso il codice sorgente, "
-"con questa chiave viene introdotta l’opzione di specificare la landing page. "
-"Questa pagina, idealmente, è il punto di arrivo dell’utente quando seleziona "
-"un pulsante chiamato, ad esempio, “Vai al codice sorgente dell’applicazione”"
-". Nel caso in cui il prodotto preveda un installer grafico automatico, "
-"questa URL può puntare alla pagina contenente un riferimento al codice "
-"sorgente ma che offra anche la possibilità di scaricare tale installer."
-msgstr ""
-
-#: .it.pc.isBasedOn.label
-msgid "Variante o fork di"
-msgstr ""
-
-#: .it.pc.isBasedOn.description
-msgid ""
-"Nel caso in cui questo software sia una variante o un fork di un altro "
-"software, che opzionalmente può contenere un file publiccode.yml, questa "
-"chiave conterrà la url di uno o più progetti originali.L’esistenza di questa "
-"chiave identifica il fork come una variante (vedi Fork e varianti), "
-"discendente dal repository specificato."
-msgstr ""
-
-#: .it.pc.softwareVersion.label
-msgid "Versione Software"
-msgstr ""
-
-#: .it.pc.softwareVersion.description
-msgid ""
-"Questa chiave contiene il numero dell’ultima versione stabile del software. "
-"Il numero di versione è una stringa che non è pensata per essere "
-"interpretata dal parser ma solamente visualizzata; i parser non devono "
-"assumere l’utilizzo del semantic versioning o altri specifici formati di "
-"versionamento.Questa chiave può essere omessa nel caso in cui il software "
-"sia in una fase iniziale di sviluppo e non sia stato ancora rilasciato."
-msgstr ""
-
-#: .it.pc.logo.label
-msgctxt ".it.pc.logo.label"
-msgid "Logo"
-msgstr ""
-
-#: .it.pc.logo.description
-msgid ""
-"Questa chiave indica il logo del software. Il valore può essere il percorso "
-"relativo al file a partire dalla root del repository, oppure una URL "
-"assoluta che punta al logo in versione raw. In entrambi i casi, il file deve "
-"risiedere all’interno del medesimo repository che contiene il "
-"publiccode.yml. Il logo dovrebbe essere in formato vettoriale; i formati "
-"raster sono solo accettabili come fallback. In questo caso, dovrebbero "
-"essere PNG trasparenti, con una larghezza minima di 1000px."
-msgstr ""
-
-#: .it.pc.monochromeLogo.label
-msgid "Logo Monocromo"
-msgstr ""
-
-#: .it.pc.monochromeLogo.description
-msgid ""
-"Questa chiave indica il logo monocromatico (nero) del software. Il valore "
-"può essere il percorso relativo al file a partire dalla root del repository, "
-"oppure una URL assoluta che punta al logo in versione raw. In entrambi i "
-"casi, il file deve risiedere all’interno del medesimo repository che "
-"contiene il publiccode.yml. Il logo dovrebbe essere in formato vettoriale; i "
-"formati raster sono solo accettabili come fallback. In questo caso, "
-"dovrebbero essere PNG trasparenti, con una larghezza minima di 1000px."
-msgstr ""
-
-#: .it.pc.developmentStatus.label
-msgid "Stato Sviluppo"
-msgstr ""
-
-#: .it.pc.developmentStatus.description
-msgid ""
-"Le chiavi sono: concept - Il software è solo un “concept”. Non è stato "
-"sviluppato codice e il repository potrebbe semplicemente essere un "
-"placeholder. development - Qualche sforzo è stato fatto in direzione dello "
-"sviluppo del software ma il codice non è pronto per l’utenza finale, nemmeno "
-"in una versione preliminare (beta o alpha) per essere testato dall’utenza. "
-"beta - Il software è in fase di testing (alpha o beta). In questo stage, il "
-"software potrebbe aver o non aver ancora avuto una release pubblica "
-"preliminare. stable - Il software ha già avuto una prima release pubblica ed "
-"è pronto per essere usato in un contesto di produzione. obsolete - Il "
-"software non è più manutenuto o aggiornato. Tutto il codice sorgente è "
-"archiviato e tenuto per ragioni di storico."
-msgstr ""
-
-#: .it.pc.softwareType.label
-msgid "Tipo Software"
-msgstr ""
-
-#: .it.pc.softwareType.description
-msgid "Valori possibili: standalone, addon, library, configurationFiles"
-msgstr ""
-
-#: .it.pc.roadmap.label
-msgctxt ".it.pc.roadmap.label"
-msgid "Roadmap"
-msgstr ""
-
-#: .it.pc.roadmap.description
-msgid "Un link ad una roadmap pubblica del software."
-msgstr ""
-
-#: .it.pc.platforms.label
-msgctxt ".it.pc.platforms.label"
-msgid "Piattaforme"
-msgstr ""
-
-#: .it.pc.platforms.description
-msgid ""
-"Questa chiave specifica su quale piattaforma funziona il software. È pensata "
-"per descrivere le piattaforme che l’utente userà per accedere ed utilizzare "
-"il software, piuttosto che la piattaforma sul quale il software gira.Se "
-"possibile, usare i valori predefiniti. Se il software gira su una "
-"piattaforma per la quale un valore predefinito non è disponibile, un diverso "
-"valore può essere usato."
-msgstr ""
-
-#: .it.pc.categories.label
-msgid "Categorie"
-msgstr ""
-
-#: .it.pc.categories.description
-msgid ""
-"Una lista di parole che possono essere usate per descrivere il software e "
-"possono aiutare a costruire il catalogo di software open.Il vocabolario "
-"controllato Lista delle categorie di software presenta la lista dei valori "
-"accettabili."
-msgstr ""
-
-#: .it.pc.usedBy.label
-msgid "Usato Da"
-msgstr ""
-
-#: .it.pc.usedBy.description
-msgid ""
-"Una lista di nome di prominenti Pubbliche Amministrazioni (che serviranno "
-"come “testimonial”) che il maintainer riconosce come utilizzatori attuali di "
-"questo software.I parser sono incoraggiati ad accrescere questa lista anche "
-"con altre informazioni che riescono ad ottenere in modo indipendente; ad "
-"esempio, il fork di un software, di proprietà di un’amministrazione, può "
-"essere usato come un segnale di uso del software."
-msgstr ""
-
-#: .it.pc.inputTypes.label
-msgctxt ".it.pc.inputTypes.label"
-msgid "Input Types"
-msgstr ""
-
-#: .it.pc.inputTypes.description
-msgid ""
-"Una lista di Media Types (MIME Types), come specificato dal RFC 6838, che "
-"possono essere gestiti in input dall’applicazione.Nel caso in cui il "
-"software non supporti alcun input, è possibile saltare questo campo o usare "
-"application/x.empty."
-msgstr ""
-
-#: .it.pc.outputTypes.label
-msgctxt ".it.pc.outputTypes.label"
-msgid "Output Types"
-msgstr ""
-
-#: .it.pc.outputTypes.description
-msgid ""
-"Una lista di Media Types (MIME Types), come specificato dal RFC 6838, che "
-"possono essere gestiti in output dall’applicazione.Nel caso in cui il "
-"software non supporti alcun output, è possibile saltare questo campo o usare "
-"application/x.empty."
-msgstr ""
-
 #: .en.translation.editor.cancel
 msgid "Cancel"
 msgstr ""
 
 #: .en.translation.editor.title
-msgctxt ".en.translation.editor.title"
 msgid "publiccode.yml Editor"
 msgstr ""
 
 #: .en.translation.editor.privacypolicy
-msgctxt ".en.translation.editor.privacypolicy"
 msgid "Privacy policy"
 msgstr ""
 
@@ -1665,7 +784,6 @@ msgid "No code generated"
 msgstr ""
 
 #: .en.translation.editor.copy
-msgctxt ".en.translation.editor.copy"
 msgid "Copia"
 msgstr ""
 
@@ -1714,7 +832,6 @@ msgid "Error loading yaml"
 msgstr ""
 
 #: .en.translation.editor.form.reset
-msgctxt ".en.translation.editor.form.reset"
 msgid "Reset"
 msgstr ""
 
@@ -1759,7 +876,6 @@ msgid "Description & Features"
 msgstr ""
 
 #: .en.translation.editor.sections.logo-and-screenshots
-msgctxt ".en.translation.editor.sections.logo-and-screenshots"
 msgid "Logo & Screenshots"
 msgstr ""
 
@@ -1768,160 +884,9 @@ msgid "Purpose & Audience"
 msgstr ""
 
 #: .en.translation.editor.sections.maintenance
-msgctxt ".en.translation.editor.sections.maintenance"
 msgid "Maintainance"
 msgstr ""
 
 #: .en.translation.validation.inprogress
 msgid "Validation in progress"
-msgstr ""
-
-#: .it.translation.editor.cancel
-msgid "Annulla"
-msgstr ""
-
-#: .it.translation.editor.title
-msgctxt ".it.translation.editor.title"
-msgid "publiccode.yml Editor"
-msgstr ""
-
-#: .it.translation.editor.privacypolicy
-msgctxt ".it.translation.editor.privacypolicy"
-msgid "Privacy policy"
-msgstr ""
-
-#: .it.translation.editor.needhelp
-msgid "Aiuto?"
-msgstr ""
-
-#: .it.translation.editor.lastgeneration
-msgid "Ultimo aggiornamento"
-msgstr ""
-
-#: .it.translation.editor.addlanguage
-msgid "+ Aggiungi lingua"
-msgstr ""
-
-#: .it.translation.editor.readmore
-msgid "Leggi di più"
-msgstr ""
-
-#: .it.translation.editor.nolanguage
-msgid "Nessuna lingua selezionata"
-msgstr ""
-
-#: .it.translation.editor.nocodegenerated
-msgid "Nessun publiccode generato"
-msgstr ""
-
-#: .it.translation.editor.copy
-msgctxt ".it.translation.editor.copy"
-msgid "Copia"
-msgstr ""
-
-#: .it.translation.editor.copytext
-msgid "Copiato negli appunti"
-msgstr ""
-
-#: .it.translation.editor.download
-msgid "Scarica"
-msgstr ""
-
-#: .it.translation.editor.genericerror
-msgid "Ci sono degli errori"
-msgstr ""
-
-#: .it.translation.editor.success
-msgid "Ottimo!"
-msgstr ""
-
-#: .it.translation.editor.browsefile
-msgid "Carica il file dal disco"
-msgstr ""
-
-#: .it.translation.editor.browse
-msgid "Upload"
-msgstr ""
-
-#: .it.translation.editor.pastefile
-msgid "Incolla l'URL del tuo publiccode.yaml"
-msgstr ""
-
-#: .it.translation.editor.load
-msgid "Carica"
-msgstr ""
-
-#: .it.translation.editor.notvalidurl
-msgid "URL non valido!"
-msgstr ""
-
-#: .it.translation.editor.filenotsupported
-msgid "File non supportato"
-msgstr ""
-
-#: .it.translation.editor.errors.yamlloading
-msgid "Errore nel caricamento dello yaml"
-msgstr ""
-
-#: .it.translation.editor.form.reset
-msgctxt ".it.translation.editor.form.reset"
-msgid "Reset"
-msgstr ""
-
-#: .it.translation.editor.form.validate
-msgid "Valida"
-msgstr ""
-
-#: .it.translation.editor.form.generate
-msgid "Genera"
-msgstr ""
-
-#: .it.translation.editor.form.addnew
-msgid "Aggiungi"
-msgstr ""
-
-#: .it.translation.editor.form.overwrite
-msgid "Sovrascrivi form"
-msgstr ""
-
-#: .it.translation.editor.form.overwritetext
-msgid "Questa operazione cancellerà tutti i dati già inseriti"
-msgstr ""
-
-#: .it.translation.editor.sections.name
-msgid "Nome"
-msgstr ""
-
-#: .it.translation.editor.sections.repository-and-documentation
-msgid "Repository & Documentazione"
-msgstr ""
-
-#: .it.translation.editor.sections.software-details
-msgid "Dettagli Software"
-msgstr ""
-
-#: .it.translation.editor.sections.legal-and-reuse
-msgid "Legal & Riuso"
-msgstr ""
-
-#: .it.translation.editor.sections.description-and-features
-msgid "Descrizione & Funzionalità"
-msgstr ""
-
-#: .it.translation.editor.sections.logo-and-screenshots
-msgctxt ".it.translation.editor.sections.logo-and-screenshots"
-msgid "Logo & Screenshots"
-msgstr ""
-
-#: .it.translation.editor.sections.purpose-and-audience
-msgid "Scopo & Audience"
-msgstr ""
-
-#: .it.translation.editor.sections.maintenance
-msgctxt ".it.translation.editor.sections.maintenance"
-msgid "Maintainance"
-msgstr ""
-
-#: .it.translation.validation.inprogress
-msgid "Validazione in corso"
 msgstr ""

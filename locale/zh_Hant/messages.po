@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 15:33+0800\n"
-"PO-Revision-Date: 2022-12-22 05:33+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-12-27 02:50+0000\n"
+"Last-Translator: Tommy Jiang <baptist333@yahoo.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/italia-publiccode-editor/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: .en.pc.description.localisedName.label
 msgid "Localised Name"
-msgstr ""
+msgstr "本土化名稱"
 
 #: .en.pc.description.localisedName.description
 msgid ""
@@ -26,10 +26,13 @@ msgid ""
 "people usually refer to the software. In case the software has both an "
 "internal “code” name and a commercial name, use the commercial name."
 msgstr ""
+"本鍵代表將名稱翻譯成特定語言的機會。當中包含產品的公開名稱與短名，這名稱也應"
+"該是多數消費者稱呼該軟體的名字。若該軟體有公司內部的代號以及上市的名稱，請以"
+"上市名稱為主。"
 
 #: .en.pc.description.genericName.label
 msgid "Generic Name"
-msgstr ""
+msgstr "通用名稱"
 
 #: .en.pc.description.genericName.description
 msgid ""
@@ -39,20 +42,24 @@ msgid ""
 "Notable examples include “Text Editor”, “Word Processor”, “Web Browser”, "
 "“Chat” and so on… The generic name can be up to 35 characters long."
 msgstr ""
+"本鍵為「通用名稱」，也就是軟體所屬的特定類別。您通常可在軟體的簡報發表會上看"
+"到軟體的通用名稱，通常都會看到「xxx軟體是yyy」。"
+"比較常見的範例包括\"文字編輯器\"、\"文書處理器\"、\"網路瀏覽器\"與\"聊天室"
+"\"等。通用名稱最多可有35個字符。"
 
 #: .en.pc.description.shortDescription.label
 msgid "Short Description"
-msgstr ""
+msgstr "簡短描述"
 
 #: .en.pc.description.shortDescription.description
 msgid ""
 "This key contains a short description of the software. It should be a single "
 "line containing a single sentence. Maximum 150 characters are allowed."
-msgstr ""
+msgstr "本鍵包含對軟體的簡短描述，內容應該是包含一句話的一行程式碼，上限為150個字符。"
 
 #: .en.pc.description.longDescription.label
 msgid "Long Description"
-msgstr ""
+msgstr "完整描述"
 
 #: .en.pc.description.longDescription.description
 msgid ""
@@ -64,10 +71,14 @@ msgid ""
 "had one).This description can contain some basic markdown: *italic*, **bold**"
 ", bullet points and [links](#)."
 msgstr ""
+"本鍵包含對軟體較長的描述，長度介於500與10,000個字符之間。本鍵旨在為潛在用戶提"
+"供軟體功能的概覽。本段文字的受眾應該是軟體用戶，而非開發人員。您可將本段文字"
+"視為應該放在軟體官網上(若有)用來描述軟體的文字。本段描述可以包含基本markdown"
+"： *italic*、**bold**、項目符號與[links](#)。"
 
 #: .en.pc.description.documentation.label
 msgid "Documentation"
-msgstr ""
+msgstr "註解"
 
 #: .en.pc.description.documentation.description
 msgid ""
@@ -79,10 +90,14 @@ msgid ""
 "rendered in HTML and browsable like a website (with a navigation index, a "
 "search bar, etc.)."
 msgstr ""
+"本鍵提到軟體使用者階層(非開發人員階層)註解。本鍵的值必須是該註解託管版本的連"
+"結。建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使"
+"用網路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含"
+"頁面導覽、搜尋欄等)。"
 
 #: .en.pc.description.apiDocumentation.label
 msgid "API Documentation"
-msgstr ""
+msgstr "API註解"
 
 #: .en.pc.description.apiDocumentation.description
 msgid ""
@@ -94,10 +109,14 @@ msgid ""
 "search bar, etc.), and if there is a reference or test deployment, possibly "
 "offer an interactive interface (e.g. Swagger)."
 msgstr ""
+"本鍵包含對軟體API註解的參照。本鍵的值必須是對託管版本的註解的連結。建議該連結"
+"是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網路瀏覽器立"
+"即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面導覽、搜尋"
+"欄等)。如果有參照或是測試部署，可以的話請提供互動式介面(像是Swagger)。"
 
 #: .en.pc.description.features.label
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: .en.pc.description.features.description
 msgid ""
@@ -113,10 +132,16 @@ msgid ""
 "size and complexity. There is no need for exhaustiveness, as users can "
 "always read the documentation for additional information."
 msgstr ""
+"本鍵包含軟體功能列表，描述該軟體能提供的功能。本段文字的受眾應該是委託製作軟"
+"體的公共決策者，因此列出來的功能不應該以開發人員為目標，而是應該列出技術功能"
+"，像是執行詳細資訊等。請以使用者能看出的軟體功能為主。雖然本鍵是必要的，但沒"
+"有規定本鍵當中應該列出的功能數量上限與下限。每個功能的介紹文字不得超過100個字"
+"符。建議您根據軟體大小與複雜程度，列出5至20個功能。沒有必要列出所有功能，因為"
+"需要額外資訊的使用者可以自己看註解。"
 
 #: .en.pc.description.features.value.label
 msgid "Feature"
-msgstr ""
+msgstr "功能"
 
 #: .en.pc.description.features.value.description
 msgctxt ".en.pc.description.features.value.description"
@@ -125,11 +150,11 @@ msgstr ""
 
 #: .en.pc.description.awards.label
 msgid "Awards"
-msgstr ""
+msgstr "獎項"
 
 #: .en.pc.description.awards.description
 msgid "A list of awards won by the software."
-msgstr ""
+msgstr "軟體獲獎清單。"
 
 #: .en.pc.description.screenshots.label
 msgctxt ".en.pc.description.screenshots.label"
@@ -140,11 +165,11 @@ msgstr ""
 msgid ""
 "This key is for some software screens with purpose to show an overview on "
 "how it works. It can be a relative or absolute path"
-msgstr ""
+msgstr "本鍵為軟體螢幕截圖，旨在提供軟體運作概述。本鍵可以是相對或絕對路徑"
 
 #: .en.pc.description.videos.label
 msgid "Videos"
-msgstr ""
+msgstr "影片"
 
 #: .en.pc.description.videos.description
 msgid ""
@@ -154,10 +179,13 @@ msgid ""
 "video sharing website that supports the oEmbed standard; popular options are "
 "YouTube and Vimeo."
 msgstr ""
+"本鍵包含解釋軟體運作方式的影片的一或多個URL。影片跟螢幕截圖一樣，應該能迅速讓"
+"使用者瞭解軟體的外觀與功能。影片必須託管在支援[oEmbed](<<https://oembed."
+"com>>)標準的影音分享網站，最常見的選項是YouTube與Vimeo。"
 
 #: .en.pc.legal.license.label
 msgid "License"
-msgstr ""
+msgstr "授權"
 
 #: .en.pc.legal.license.description
 msgid ""
@@ -165,22 +193,24 @@ msgid ""
 "The string must contain a valid SPDX expression, referring to one (or "
 "multiple) open-source license. Please refer to the SPDX documentation for "
 "further information."
-msgstr ""
+msgstr "本字串描述軟體散佈的授權。該字串必須包含有效的SPDX "
+"expression，參照一或多個開源授權。詳細資訊請參閱SPDX文件。"
 
 #: .en.pc.legal.mainCopyrightOwner.label
 msgid "Main Copyright Owner"
-msgstr ""
+msgstr "主要著作權所有人"
 
 #: .en.pc.legal.mainCopyrightOwner.description
 msgid ""
 "This string describes the entity that owns the copyright on 'most' of the "
 "code in the repository. Normally, this is the line that is reported with the "
 "copyright symbol at the top of most files in the repo."
-msgstr ""
+msgstr "本字串描述擁有儲存庫當中，「多數」程式碼著作權的實體。通常來說，本鍵是一行具"
+"有著作權標誌的文字，且會出現在儲存庫多數檔案的頁首。"
 
 #: .en.pc.legal.repoOwner.label
 msgid "Repository Owner"
-msgstr ""
+msgstr "儲存庫所有人"
 
 #: .en.pc.legal.repoOwner.description
 msgid ""
@@ -189,10 +219,12 @@ msgid ""
 "instance, in case of a fork of the original software, the repoOwner is "
 "probably different from the mainCopyrightOwner."
 msgstr ""
+"本字串描述擁有本儲存庫的實體，可能是也可能不是程式碼本身的著作權所有人。舉例"
+"來說，在原始軟體的分支，repoOwner跟mainCopyrightOwner可能是不同實體。"
 
 #: .en.pc.legal.authorsFile.label
 msgid "Authors File"
-msgstr ""
+msgstr "作者檔案"
 
 #: .en.pc.legal.authorsFile.description
 msgid ""
@@ -203,10 +235,13 @@ msgid ""
 "cases, this key can be used to refer to the authors file, using a path "
 "relative to the root of the repository."
 msgstr ""
+"有些開源軟體的做法，是將擁有其著作權的所有實體列在檔案中。這在由社群所支持的"
+"專案中相當常見，這些專案有許多外部貢獻者且沒有明確/主要著作權所有人。在此情況"
+"下，本鍵可透過儲存庫根目錄的相對路徑，參照作者檔案。"
 
 #: .en.pc.intendedAudience.scope.label
 msgid "Scope"
-msgstr ""
+msgstr "範圍"
 
 #: .en.pc.intendedAudience.scope.description
 msgid ""
@@ -219,10 +254,14 @@ msgid ""
 "This list can evolve at any time, separately from the version of this "
 "specification."
 msgstr ""
+"公共軟體的適用範圍可能相當明確，因為不同的行政機關，都有自己負責的許多任務。"
+"舉例來說，學校用的軟體就不適用於醫院。如果您想將一些軟體清楚標示為只適用於特"
+"定類型的機關，就應該將這些機關加入到此鍵中。允許值列表定義在pa-types."
+"md當中，而且每個國家都不同。本列表隨時都會改變，不受軟體版本影響。"
 
 #: .en.pc.intendedAudience.countries.label
 msgid "Countries"
-msgstr ""
+msgstr "國家"
 
 #: .en.pc.intendedAudience.countries.description
 msgid ""
@@ -230,11 +269,12 @@ msgid ""
 "i.e. the software explicitly claims compliance with specific processes, "
 "technologies or laws. All countries are specified using lowercase ISO 3166-1 "
 "alpha-2 two-letter country codes."
-msgstr ""
+msgstr "本鍵明確地將某些國家列入其目標受眾。換句話說，該軟體明確表示遵守特定流程、科"
+"技或法律。所有國家都以ISO3166-1二位字母代碼表示。"
 
 #: .en.pc.intendedAudience.unsupportedCountries.label
 msgid "Unsupported Countries"
-msgstr ""
+msgstr "未支援國家"
 
 #: .en.pc.intendedAudience.unsupportedCountries.description
 msgid ""
@@ -242,21 +282,22 @@ msgid ""
 "if there is a conflict between how software is working and a specific law, "
 "process or technology. All countries are specified using lowercase ISO 3166-"
 "1 alpha-2 two-letter country codes."
-msgstr ""
+msgstr "本鍵明確標示不支援的國家。原因可能是因為該軟體運作方式，與該國特定法規、流程"
+"或科技有所衝突。所有國家都以ISO3166-1二位字母代碼表示。"
 
 #: .en.pc.localisation.localisationReady.label
 msgid "Localisation Ready"
-msgstr ""
+msgstr "可本地化"
 
 #: .en.pc.localisation.localisationReady.description
 msgid ""
 "If yes, the software has infrastructure in place or is otherwise designed to "
 "be multilingual. It does not need to be available in more than one language."
-msgstr ""
+msgstr "若可本地化，代表軟體有多語言的架構或設計，因此不需要提供多語言版本。"
 
 #: .en.pc.localisation.availableLanguages.label
 msgid "Available Languages"
-msgstr ""
+msgstr "可用語言"
 
 #: .en.pc.localisation.availableLanguages.description
 msgid ""
@@ -265,14 +306,16 @@ msgid ""
 "primary language subtag cannot be omitted, as mandated by the. See also: "
 "https://tools.ietf.org/html/bcp47"
 msgstr ""
+"若有此鍵，代表該軟體的各語言版本列表。該列表至少會有一個語言。根據BCP "
+"47規定，不能刪除主要語言子標籤。請參閱：https://tools.ietf.org/html/bcp47"
 
 #: .en.pc.it.countryExtensionVersion.label
 msgid "Country Ext. Version"
-msgstr ""
+msgstr "國家擴充版"
 
 #: .en.pc.it.countryExtensionVersion.description
 msgid "Country Extension version"
-msgstr ""
+msgstr "國家擴充版"
 
 #: .en.pc.it.riuso.codiceIPA.label
 msgctxt ".en.pc.it.riuso.codiceIPA.label"
@@ -334,9 +377,10 @@ msgid "pagoPA"
 msgstr ""
 
 #: .en.pc.it.piattaforme.pagopa.description
+#, fuzzy
 msgctxt ".en.pc.it.piattaforme.pagopa.description"
 msgid "Se presente e impostato a yes, il software si interfaccia con PagoPA."
-msgstr ""
+msgstr "Se presente e impostato a yes, il software si interfaccia con PagoPA."
 
 #: .en.pc.it.conforme.label
 msgctxt ".en.pc.it.conforme.label"
@@ -391,7 +435,7 @@ msgstr ""
 
 #: .en.pc.maintenance.type.label
 msgid "Maintenance Type"
-msgstr ""
+msgstr "維護類型"
 
 #: .en.pc.maintenance.type.description
 msgid ""
@@ -402,10 +446,13 @@ msgid ""
 "currently maintained by one or more people that donate their time to the "
 "project; 'none' means that the software is not actively maintained."
 msgstr ""
+"本鍵描述軟體目前維護方式。「Internal」代表由儲存庫所有人從內部進行維護。「con"
+"tract」代表有與實體簽約，由該實體負責維護軟體;「community」代表軟體由一或多位"
+"專案志願者來維護;「none」則代表軟體沒有積極維護。"
 
 #: .en.pc.maintenance.contacts.label
 msgid "Contacts"
-msgstr ""
+msgstr "聯絡人"
 
 #: .en.pc.maintenance.contacts.description
 msgid ""
@@ -418,27 +465,32 @@ msgid ""
 "to deliver the maintenance. Do not specify the software owner unless it is "
 "technically involved with the maintenance of the product as well."
 msgstr ""
+"一或多位聯絡人負責維護本軟體。本鍵描述目前負責維護軟體的技術人員。所有聯絡人"
+"都必須是真人，而非公司或組織。若有人代表一個機構，則必須在合約的聯絡資訊中註"
+"明。如果是簽署商業協議(或是多份商業協議)，請指明實際簽約來負責維護軟體的實體"
+"。除非有參與產品維護，否則請勿指明軟體所有人。"
 
 #: .en.pc.maintenance.contacts.name.description
 msgid ""
 " mandatory - This key contains the full name of one of the technical "
 "contacts. It must be a real person; do NOT populate this key with generic "
 "contact information, company departments, associations, etc."
-msgstr ""
+msgstr " 必要 - 本鍵包含技術聯絡人之一的全名。技術連絡人必須是真人，所以請勿將一般聯"
+"絡人資訊、公司部門或協會等資訊填入此鍵中。"
 
 #: .en.pc.maintenance.contacts.name.label
 msgctxt ".en.pc.maintenance.contacts.name.label"
 ".en.pc.maintenance.contacts.name.label"
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #: .en.pc.maintenance.contacts.phone.description
 msgid "Phone number (with international prefix)"
-msgstr ""
+msgstr "電話號碼(包含國際冠碼)"
 
 #: .en.pc.maintenance.contacts.phone.label
 msgid "Phone"
-msgstr ""
+msgstr "電話"
 
 #: .en.pc.maintenance.contacts.email.description
 msgid ""
@@ -446,7 +498,8 @@ msgid ""
 "email address of where the technical contact can be directly reached; do NOT "
 "populate this key with mailing-lists or generic contact points like info@"
 "acme.inc. "
-msgstr ""
+msgstr "本鍵包含技術連絡人的電子郵件信箱，必須是能直接聯繫上該技術聯絡人的電子郵件信"
+"箱。請勿輸入info@acme.inc這樣的一般郵寄名單。 "
 
 #: .en.pc.maintenance.contacts.email.label
 msgctxt ".en.pc.maintenance.contacts.email.label"
@@ -460,37 +513,39 @@ msgid ""
 "contact. In case of multiple maintainers, this can be used to create a "
 "relation between each technical contact and each maintainer entity. It can "
 "contain for instance a company name, an association name, etc."
-msgstr ""
+msgstr "本鍵包含技術聯絡人的聯絡資訊。有多位維護人員時，可使用本鍵在每位技術聯絡人與"
+"維護人員之間建立關聯性。本鍵能包含公司名與機構名稱等。"
 
 #: .en.pc.maintenance.contacts.affiliation.label
 msgid "Affiliation"
-msgstr ""
+msgstr "聯繫"
 
 #: .en.pc.maintenance.contractors.label
 msgid "Contractors"
-msgstr ""
+msgstr "承包商"
 
 #: .en.pc.maintenance.contractors.description
 msgid ""
 "This key describes the entity or entities, if any, that are currently "
 "contracted for maintaining the software. They can be companies, "
 "organizations, or other collective names."
-msgstr ""
+msgstr "本鍵描述目前簽約來維護軟體的實體(若有)，這些實體可以是公司、組織或是其他群體"
+"。"
 
 #: .en.pc.maintenance.contractors.name.label
 msgctxt ".en.pc.maintenance.contractors.name.label"
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #: .en.pc.maintenance.contractors.name.description
 msgid ""
 "mandatory - The name of the contractor, whether it's a company or a physical "
 "person."
-msgstr ""
+msgstr "必要 - 承包商姓名，可以是公司或是本人。"
 
 #: .en.pc.maintenance.contractors.until.label
 msgid "Until"
-msgstr ""
+msgstr "到期日"
 
 #: .en.pc.maintenance.contractors.until.description
 msgid ""
@@ -499,73 +554,79 @@ msgid ""
 "value should not be more than 2 years in the future, and thus will need to "
 "be regularly updated as the community continues working on the project."
 msgstr ""
+"必要 - 這是日期(YYYY-MM-DD)。本鍵必須包含維護結束的日期。如果是由社群進行維護"
+"，本鍵的值不應該超過未來2年。因此隨著社群持續改善專案，也必須定期更新本鍵的值"
+"。"
 
 #: .en.pc.maintenance.contractors.website.label
 msgid "website"
-msgstr ""
+msgstr "網站"
 
 #: .en.pc.maintenance.contractors.website.description
 msgid ""
 "This key points to the maintainer website. It can either point to the main "
 "institutional website, or to a more project-specific page or website."
-msgstr ""
+msgstr "本鍵指向維護人員網站，可以是該公司官網，或是與專案相關的網頁或網站。"
 
 #: .en.pc.dependsOn.label
 msgid "Depends On"
-msgstr ""
+msgstr "相依性"
 
 #: .en.pc.dependsOn.description
 msgid ""
 "This section provides an overview on the system-level dependencies required "
 "to install and use this software."
-msgstr ""
+msgstr "本段落提供安裝與使用本軟體時，所需的系統階層相依性概覽。"
 
 #: .en.pc.dependsOn.type.label
 msgid "Type"
-msgstr ""
+msgstr "類型"
 
 #: .en.pc.dependsOn.name.label
 msgctxt ".en.pc.dependsOn.name.label"
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: .en.pc.dependsOn.name.description
 msgid "mandatory - The name of the dependency (e.g. MySQL, NFC Reader)"
-msgstr ""
+msgstr "必要 - 相依性名稱(例如MySQL、NFC Reader)"
 
 #: .en.pc.dependsOn.versionMin.label
+#, fuzzy
 msgid "Version Range Min"
-msgstr ""
+msgstr "Version Range Min"
 
 #: .en.pc.dependsOn.versionMin.description
 msgid "the first compatible version"
-msgstr ""
+msgstr "第一個相容版本"
 
 #: .en.pc.dependsOn.versionMax.label
+#, fuzzy
 msgid "Version Range Max"
-msgstr ""
+msgstr "Version Range Max"
 
 #: .en.pc.dependsOn.versionMax.description
 msgid "the latest compatible version"
-msgstr ""
+msgstr "最新相容版本"
 
 #: .en.pc.dependsOn.version.label
+#, fuzzy
 msgid "Exact Version"
-msgstr ""
+msgstr "Exact Version"
 
 #: .en.pc.dependsOn.version.description
 msgid ""
 "the only major version for which the software is compatible. It assumes "
 "compatibility with all patches and bugfixes later applied to this version."
-msgstr ""
+msgstr "軟體相容的唯一主要版本，並且能相容之後推出的所有修復與除錯更新。"
 
 #: .en.pc.dependsOn.optional.label
 msgid "Optional"
-msgstr ""
+msgstr "非必要"
 
 #: .en.pc.dependsOn.optional.description
 msgid "whether the dependency is optional or mandatory"
-msgstr ""
+msgstr "相依性是否必要"
 
 #: .en.pc.publiccodeYmlVersion.label
 msgctxt ".en.pc.publiccodeYmlVersion.label"
@@ -579,7 +640,7 @@ msgstr ""
 
 #: .en.pc.name.label
 msgid "Name of the software"
-msgstr ""
+msgstr "軟體名稱"
 
 #: .en.pc.name.description
 msgid ""
@@ -589,21 +650,25 @@ msgid ""
 "case the software has both an internal 'code' name and a commercial name, "
 "use the commercial name."
 msgstr ""
+"本鍵包含軟體名稱。本鍵包含的是產品的公開名稱與短名，能夠在本地化程式碼段落中"
+"本地化。應該採用的是最多人稱呼該軟體的名稱。如果軟體有公司內部的代號與上市名"
+"稱，請以上市名稱為主。"
 
 #: .en.pc.releaseDate.label
 msgid "Release Date"
-msgstr ""
+msgstr "發佈日期"
 
 #: .en.pc.releaseDate.description
 msgid ""
 "This key contains the date at which the latest version was released. This "
 "date is mandatory if the software has been released at least once and thus "
 "the version number is present."
-msgstr ""
+msgstr "本鍵包含最新軟體版本發佈時的日期。如果軟體已經被發佈過至少一次，因此有版本編"
+"號時，則必須要用此鍵標示該日期。"
 
 #: .en.pc.url.label
 msgid "Repository URL"
-msgstr ""
+msgstr "儲存庫連結"
 
 #: .en.pc.url.description
 msgid ""
@@ -612,6 +677,9 @@ msgid ""
 "If the repository is available under multiple protocols, prefer HTTP/HTTPS "
 "URLs which don't require user authentication."
 msgstr ""
+"該軟體特有的識別符號。此字串必須是當初軟體發佈時，所在的原始碼儲存庫(git, "
+"svn, ...)連結。如果儲存庫採用多種協定，請以不需要使用者認證的HTTP/"
+"HTTPS連結為主。"
 
 #: .en.pc.applicationSuite.label
 msgctxt ".en.pc.applicationSuite.label"
@@ -621,11 +689,11 @@ msgstr ""
 #: .en.pc.applicationSuite.description
 msgid ""
 "This key contains the name of the 'suite' to which the software belongs."
-msgstr ""
+msgstr "本鍵包含軟體隸屬的「軟體套裝」名稱。"
 
 #: .en.pc.landingURL.label
 msgid "Landing Page URL"
-msgstr ""
+msgstr "到達網頁連結"
 
 #: .en.pc.landingURL.description
 msgid ""
@@ -637,10 +705,14 @@ msgid ""
 "graphical installer, this URL can point to a page which contains a reference "
 "to the source code but also offers the download of such an installer."
 msgstr ""
+"若連結參數無法產生人類可讀或瀏覽的頁面，而只能提供原始碼給原始碼控制客戶端 。"
+"只要有鍵，您就能夠指定到達網頁。在理想狀況下，您的用戶在按下網站上類似「查看"
+"應用程式原始碼」的按鈕時，就會前往該網頁。如果產品提供自動化圖形介面安裝程式"
+"，此連結能夠連結一個提到原始碼但同時允許使用者下載安裝程式的網頁。"
 
 #: .en.pc.isBasedOn.label
 msgid "Is Based On"
-msgstr ""
+msgstr "基礎"
 
 #: .en.pc.isBasedOn.description
 msgid ""
@@ -649,10 +721,13 @@ msgid ""
 "url of the original project(s). The existence of this key identifies the "
 "fork as a software variant, descending from the specified repositories."
 msgstr ""
+"若此軟體為另一軟體的分支，該軟體可能會也可能不會包含publiccode.yml檔案，因此"
+"本鍵包含原始專案的連結。本鍵的存在，能將分支標示為來自指明儲存庫的軟體的變種"
+"。"
 
 #: .en.pc.softwareVersion.label
 msgid "Software Version"
-msgstr ""
+msgstr "軟體版本"
 
 #: .en.pc.softwareVersion.description
 msgid ""
@@ -661,6 +736,9 @@ msgid ""
 "but just displayed; parsers should not assume semantic versioning or any "
 "other specific version format."
 msgstr ""
+"本鍵包含軟體的最新且穩定的版本編號。版本編號是一個字串，不應該被解讀或分析，"
+"只應該被顯示出來。分析人員不應該認定版本編號有任何語意化命名方式或其他特定版"
+"本格式。"
 
 #: .en.pc.logo.label
 msgctxt ".en.pc.logo.label"
@@ -673,10 +751,13 @@ msgid ""
 " raster formats are only allowed as a fallback. In this case, they should be "
 "transparent PNGs, minimum 1000px of width. Acceptable formats: SVG, SVGZ, PNG"
 msgstr ""
+"本鍵包含軟體標誌。標誌應該採向量圖檔格式，點陣圖檔只能當作備份。標誌圖案應該"
+"是透明的PNG檔案，寬度最低為1000px。可接受格式：SVG、SVGZ與PNG"
 
 #: .en.pc.monochromeLogo.label
+#, fuzzy
 msgid "Logo Monochrome"
-msgstr ""
+msgstr "Logo Monochrome"
 
 #: .en.pc.monochromeLogo.description
 msgid ""
@@ -684,22 +765,24 @@ msgid ""
 "formats are only allowed as a fallback. In this case, they should be "
 "transparent PNGs, minimum 1000px of width. Acceptable formats: SVG, SVGZ, PNG"
 msgstr ""
+"單色(黑白)標誌。標誌應該採向量圖檔格式，點陣圖檔只能當作備份。標誌圖案應該是"
+"透明的PNG檔案，寬度最低為1000px。可接受格式：SVG、SVGZ與PNG"
 
 #: .en.pc.developmentStatus.label
 msgid "Development Status"
-msgstr ""
+msgstr "開發狀態"
 
 #: .en.pc.developmentStatus.description
 msgid "Allowed values: concept, development, beta, stable, obsolete"
-msgstr ""
+msgstr "允許值： 概念、開發、測試、穩定、淘汰"
 
 #: .en.pc.softwareType.label
 msgid "Software Type"
-msgstr ""
+msgstr "軟體類型"
 
 #: .en.pc.softwareType.description
 msgid "Allowed values: standalone, addon, library, configurationFiles"
-msgstr ""
+msgstr "允許值：單機版、外掛、函式庫與配置檔案"
 
 #: .en.pc.roadmap.label
 msgctxt ".en.pc.roadmap.label"
@@ -708,11 +791,11 @@ msgstr ""
 
 #: .en.pc.roadmap.description
 msgid "A link to a public roadmap of the software."
-msgstr ""
+msgstr "軟體公共路徑圖連結。"
 
 #: .en.pc.platforms.label
 msgid "Platforms"
-msgstr ""
+msgstr "平台"
 
 #: .en.pc.platforms.description
 msgid ""
@@ -724,10 +807,14 @@ msgid ""
 "web, windows, mac, linux, ios, android. Human readable values outside this "
 "list are allowed."
 msgstr ""
+"本鍵指明軟體運行的平台。本鍵是描述使用者為了使用該軟體而必須使用的平台，而非"
+"軟體本身運作時所在的平台。若可以，請以預定義值優先。如果軟體執行的平台沒有預"
+"定義值，則可使用不同的值。值：web、windows、mac、linux、ios、android。另外可"
+"使用其他人類可讀的值。"
 
 #: .en.pc.categories.label
 msgid "Category"
-msgstr ""
+msgstr "類別"
 
 #: .en.pc.categories.description
 msgid ""
@@ -737,10 +824,13 @@ msgid ""
 "character to separate multiple words is - (single dash). See also: "
 "description/[lang]/freeTags/"
 msgstr ""
+"用於描述軟體的字表，幫助打造開源軟體的目錄。每個標籤都必須是採用Unicode編碼的"
+"小寫字母，且不得包含Unicode編碼的空白字元。建議使用單一連接號「-」來將不同字"
+"詞隔開。請參閱： description/[lang]/freeTags/"
 
 #: .en.pc.usedBy.label
 msgid "Used By"
-msgstr ""
+msgstr "使用者"
 
 #: .en.pc.usedBy.description
 msgid ""
@@ -751,6 +841,9 @@ msgid ""
 "software, owned by an administration, could be used as a signal of usage of "
 "the software."
 msgstr ""
+"軟體維護人員知道目前正在使用本軟體的主要公共行政機關(可做為見證人)列表。語法"
+"分析器可使用其他獨立取得的資訊，加入本列表中，像是一個行政機關使用該軟體的分"
+"支，則可視為該軟體的使用人。"
 
 #: .en.pc.inputTypes.label
 msgctxt ".en.pc.inputTypes.label"
@@ -763,6 +856,8 @@ msgid ""
 "application can handle as output. In case the software does not support any "
 "input, you can skip this field or use application/x.empty."
 msgstr ""
+"RFC 6838規定的媒體類型(MIME類型)列表，應用程式可將其視為輸出。若軟體沒有支援"
+"任何輸入功能，您可跳過此欄位或使用application/x.empty。"
 
 #: .en.pc.outputTypes.label
 msgctxt ".en.pc.outputTypes.label"
@@ -775,6 +870,8 @@ msgid ""
 "application can handle as output. In case the software does not support any "
 "output, you can skip this field or use application/x.empty."
 msgstr ""
+"RFC 6838規定的媒體類型(MIME類型)列表，應用程式可將其視為輸出。若軟體沒有支援"
+"任何輸出功能，您可跳過此欄位或使用application/x.empty。"
 
 #: .it.pc.description.localisedName.label
 msgid "Nome Localizzato"
@@ -1630,7 +1727,7 @@ msgstr ""
 
 #: .en.translation.editor.cancel
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: .en.translation.editor.title
 msgctxt ".en.translation.editor.title"
@@ -1644,27 +1741,27 @@ msgstr ""
 
 #: .en.translation.editor.needhelp
 msgid "Need Help?"
-msgstr ""
+msgstr "需要協助嗎？"
 
 #: .en.translation.editor.lastgeneration
 msgid "Last generation"
-msgstr ""
+msgstr "上世代"
 
 #: .en.translation.editor.addlanguage
 msgid "+ Add language"
-msgstr ""
+msgstr "+ 新增語言"
 
 #: .en.translation.editor.readmore
 msgid "Read more"
-msgstr ""
+msgstr "進一步閱讀"
 
 #: .en.translation.editor.nolanguage
 msgid "No language selected"
-msgstr ""
+msgstr "未選取語言"
 
 #: .en.translation.editor.nocodegenerated
 msgid "No code generated"
-msgstr ""
+msgstr "未產生代碼"
 
 #: .en.translation.editor.copy
 msgctxt ".en.translation.editor.copy"
@@ -1673,47 +1770,47 @@ msgstr ""
 
 #: .en.translation.editor.copytext
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "已複製到剪貼簿"
 
 #: .en.translation.editor.download
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
 #: .en.translation.editor.genericerror
 msgid "There are some errors"
-msgstr ""
+msgstr "發生錯誤"
 
 #: .en.translation.editor.success
 msgid "Success!"
-msgstr ""
+msgstr "成功！"
 
 #: .en.translation.editor.browsefile
 msgid "Browse file from disk"
-msgstr ""
+msgstr "瀏覽硬碟檔案"
 
 #: .en.translation.editor.browse
 msgid "Browse"
-msgstr ""
+msgstr "瀏覽"
 
 #: .en.translation.editor.pastefile
 msgid "Paste remote publiccode.yaml url"
-msgstr ""
+msgstr "貼上遠端publiccode.yaml連結"
 
 #: .en.translation.editor.load
 msgid "Load"
-msgstr ""
+msgstr "載入"
 
 #: .en.translation.editor.notvalidurl
 msgid "Not a valid url"
-msgstr ""
+msgstr "無效連結"
 
 #: .en.translation.editor.filenotsupported
 msgid "File type not supported"
-msgstr ""
+msgstr "未支援的檔案類型"
 
 #: .en.translation.editor.errors.yamlloading
 msgid "Error loading yaml"
-msgstr ""
+msgstr "載入yaml時發生錯誤"
 
 #: .en.translation.editor.form.reset
 msgctxt ".en.translation.editor.form.reset"
@@ -1722,43 +1819,43 @@ msgstr ""
 
 #: .en.translation.editor.form.validate
 msgid "Validate"
-msgstr ""
+msgstr "驗證"
 
 #: .en.translation.editor.form.generate
 msgid "Generate"
-msgstr ""
+msgstr "產生"
 
 #: .en.translation.editor.form.addnew
 msgid "Add new"
-msgstr ""
+msgstr "新增"
 
 #: .en.translation.editor.form.overwrite
 msgid "Overwrite form"
-msgstr ""
+msgstr "覆寫表格"
 
 #: .en.translation.editor.form.overwritetext
 msgid "This operation will erase all data"
-msgstr ""
+msgstr "本動作將清除所有資料"
 
 #: .en.translation.editor.sections.name
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: .en.translation.editor.sections.repository-and-documentation
 msgid "Repository & Documentation"
-msgstr ""
+msgstr "儲存庫與註解"
 
 #: .en.translation.editor.sections.software-details
 msgid "Software Details"
-msgstr ""
+msgstr "軟體詳細資訊"
 
 #: .en.translation.editor.sections.legal-and-reuse
 msgid "Legal & Reuse"
-msgstr ""
+msgstr "法務與複用"
 
 #: .en.translation.editor.sections.description-and-features
 msgid "Description & Features"
-msgstr ""
+msgstr "說明與功能"
 
 #: .en.translation.editor.sections.logo-and-screenshots
 msgctxt ".en.translation.editor.sections.logo-and-screenshots"
@@ -1767,7 +1864,7 @@ msgstr ""
 
 #: .en.translation.editor.sections.purpose-and-audience
 msgid "Purpose & Audience"
-msgstr ""
+msgstr "目的與受眾"
 
 #: .en.translation.editor.sections.maintenance
 msgctxt ".en.translation.editor.sections.maintenance"
@@ -1776,7 +1873,7 @@ msgstr ""
 
 #: .en.translation.validation.inprogress
 msgid "Validation in progress"
-msgstr ""
+msgstr "驗證進行中"
 
 #: .it.translation.editor.cancel
 msgid "Annulla"

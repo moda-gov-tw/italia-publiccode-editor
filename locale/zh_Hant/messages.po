@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 15:33+0800\n"
-"PO-Revision-Date: 2023-01-17 14:35+0000\n"
+"PO-Revision-Date: 2023-01-18 15:35+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/italia-publiccode-editor/zh_Hant/>\n"
@@ -570,7 +570,7 @@ msgstr "本鍵指向維護人員網站，可以是該公司官網，或是與專
 
 #: .en.pc.dependsOn.label
 msgid "Depends On"
-msgstr "相依性"
+msgstr "依賴"
 
 #: .en.pc.dependsOn.description
 msgid ""
@@ -656,14 +656,14 @@ msgstr ""
 
 #: .en.pc.releaseDate.label
 msgid "Release Date"
-msgstr "發佈日期"
+msgstr "發行日期"
 
 #: .en.pc.releaseDate.description
 msgid ""
 "This key contains the date at which the latest version was released. This "
 "date is mandatory if the software has been released at least once and thus "
 "the version number is present."
-msgstr "本鍵包含最新軟體版本發佈時的日期。如果軟體已經被發佈過至少一次，因此有版本編"
+msgstr "本鍵包含最新軟體版本發行時的日期。如果軟體已經被發行過至少一次，因此有版本編"
 "號時，則必須要用此鍵標示該日期。"
 
 #: .en.pc.url.label
@@ -1745,7 +1745,7 @@ msgstr "需要協助嗎？"
 
 #: .en.translation.editor.lastgeneration
 msgid "Last generation"
-msgstr "上世代"
+msgstr "上次產生"
 
 #: .en.translation.editor.addlanguage
 msgid "+ Add language"
@@ -1753,7 +1753,7 @@ msgstr "+ 新增語言"
 
 #: .en.translation.editor.readmore
 msgid "Read more"
-msgstr "進一步閱讀"
+msgstr "深入閱讀"
 
 #: .en.translation.editor.nolanguage
 msgid "No language selected"
@@ -1794,7 +1794,7 @@ msgstr "瀏覽"
 
 #: .en.translation.editor.pastefile
 msgid "Paste remote publiccode.yaml url"
-msgstr "貼上遠端publiccode.yaml連結"
+msgstr "貼上遠端 publiccode.yaml 連結"
 
 #: .en.translation.editor.load
 msgid "Load"
@@ -1810,7 +1810,7 @@ msgstr "未支援的檔案類型"
 
 #: .en.translation.editor.errors.yamlloading
 msgid "Error loading yaml"
-msgstr "載入yaml時發生錯誤"
+msgstr "載入 yaml 時發生錯誤"
 
 #: .en.translation.editor.form.reset
 msgctxt ".en.translation.editor.form.reset"
@@ -1831,7 +1831,7 @@ msgstr "新增"
 
 #: .en.translation.editor.form.overwrite
 msgid "Overwrite form"
-msgstr "覆寫表格"
+msgstr "覆寫表單"
 
 #: .en.translation.editor.form.overwritetext
 msgid "This operation will erase all data"
@@ -1843,7 +1843,7 @@ msgstr "名稱"
 
 #: .en.translation.editor.sections.repository-and-documentation
 msgid "Repository & Documentation"
-msgstr "儲存庫與註解"
+msgstr "儲存庫與文件"
 
 #: .en.translation.editor.sections.software-details
 msgid "Software Details"
@@ -1851,7 +1851,7 @@ msgstr "軟體詳細資訊"
 
 #: .en.translation.editor.sections.legal-and-reuse
 msgid "Legal & Reuse"
-msgstr "法務與複用"
+msgstr "法務與重複使用"
 
 #: .en.translation.editor.sections.description-and-features
 msgid "Description & Features"
@@ -1864,7 +1864,7 @@ msgstr ""
 
 #: .en.translation.editor.sections.purpose-and-audience
 msgid "Purpose & Audience"
-msgstr "目的與受眾"
+msgstr "用途與受眾"
 
 #: .en.translation.editor.sections.maintenance
 msgctxt ".en.translation.editor.sections.maintenance"

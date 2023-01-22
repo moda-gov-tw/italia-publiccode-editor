@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 15:33+0800\n"
-"PO-Revision-Date: 2023-01-21 15:53+0000\n"
+"PO-Revision-Date: 2023-01-22 16:35+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/italia-publiccode-editor/zh_Hant/>\n"
@@ -268,29 +268,28 @@ msgid "Countries"
 msgstr "國家"
 
 #: .en.pc.intendedAudience.countries.description
+#, fuzzy
 msgid ""
 "This key explicitly includes certain countries in the intended audience, "
 "i.e. the software explicitly claims compliance with specific processes, "
 "technologies or laws. All countries are specified using lowercase ISO 3166-1 "
 "alpha-2 two-letter country codes."
-msgstr ""
-"本鍵明確將特定國家列入其目標對象，也就是說，該軟體明確宣示遵循特定處理程序、"
-"科技或法律。所有指定的國家都以 ISO3166-1 alpha-2 的雙字母國家碼表示。"
+msgstr "本鍵明確地將某些國家列入其目標受眾。換句話說，該軟體明確表示遵守特定流程、科"
+"技或法律。所有國家都以ISO3166-1二位字母代碼表示。"
 
 #: .en.pc.intendedAudience.unsupportedCountries.label
 msgid "Unsupported Countries"
 msgstr "未支援國家"
 
 #: .en.pc.intendedAudience.unsupportedCountries.description
+#, fuzzy
 msgid ""
 "This key explicitly marks countries as NOT supported. This might be the case "
 "if there is a conflict between how software is working and a specific law, "
 "process or technology. All countries are specified using lowercase ISO 3166-"
 "1 alpha-2 two-letter country codes."
-msgstr ""
-"本鍵明確標示不支援的國家。原因可能是因為該軟體的運作方式，與該國特定法規、處"
-"理程序或科技有所衝突。所有指定的國家都以 ISO 3166-1 alpha-2 "
-"的雙字母國家碼表示。"
+msgstr "本鍵明確標示不支援的國家。原因可能是因為該軟體運作方式，與該國特定法規、流程"
+"或科技有所衝突。所有國家都以ISO3166-1二位字母代碼表示。"
 
 #: .en.pc.localisation.localisationReady.label
 msgid "Localisation Ready"
@@ -798,7 +797,7 @@ msgstr ""
 
 #: .en.pc.roadmap.description
 msgid "A link to a public roadmap of the software."
-msgstr "軟體公開的發展路線圖連結。"
+msgstr "軟體的公開發展路線圖連結。"
 
 #: .en.pc.platforms.label
 msgid "Platforms"

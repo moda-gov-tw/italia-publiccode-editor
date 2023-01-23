@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 15:33+0800\n"
-"PO-Revision-Date: 2023-01-22 16:35+0000\n"
+"PO-Revision-Date: 2023-01-23 17:00+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/italia-publiccode-editor/zh_Hant/>\n"
@@ -42,9 +42,9 @@ msgid ""
 "Notable examples include “Text Editor”, “Word Processor”, “Web Browser”, "
 "“Chat” and so on… The generic name can be up to 35 characters long."
 msgstr ""
-"本鍵為「通用名稱」，也就是軟體所屬的特定分類。您通常可以在軟體的簡報發表會上"
-"看到軟體的通用名稱，例如看到「xxx軟體是yyy」。比較常見的範例包括「文字編輯器"
-"」、「文書處理器」、「網頁瀏覽器」、「聊天」…等。通用名稱最多可有35個字元長。"
+"本鍵為「通用名稱」，也就是軟體所屬的特定分類。您通常可以在軟體的介紹中看到軟"
+"體的通用名稱，例如看到「xxx軟體是yyy」。比較常見的範例包括「文字編輯器」、「"
+"文書處理器」、「網頁瀏覽器」、「聊天」…等。通用名稱最多可有35個字元長。"
 
 #: .en.pc.description.shortDescription.label
 msgid "Short Description"
@@ -260,36 +260,38 @@ msgstr ""
 "公眾軟體的適用領域可以相當明確，因為不同的行政機關都有對應一大塊特定類型的事"
 "務集合。舉例來說，學校會用的許多軟體，通常醫院就用不大上。如果您想將一些軟體"
 "清楚標示為適合特定類型的機關以方便使用的話，就應該將機關領域加到此鍵中。"
-"允許值定義在 pa-types."
-"md當中，而且可有國家特定用法；該列表可以與時俱進，獨立於此規格中的版本。"
+"允許值定義在 pa-types.md "
+"當中，而且可有國家特定用法；該列表可以與時俱進，獨立於此規格中的版本。"
 
 #: .en.pc.intendedAudience.countries.label
 msgid "Countries"
 msgstr "國家"
 
 #: .en.pc.intendedAudience.countries.description
-#, fuzzy
 msgid ""
 "This key explicitly includes certain countries in the intended audience, "
 "i.e. the software explicitly claims compliance with specific processes, "
 "technologies or laws. All countries are specified using lowercase ISO 3166-1 "
 "alpha-2 two-letter country codes."
-msgstr "本鍵明確地將某些國家列入其目標受眾。換句話說，該軟體明確表示遵守特定流程、科"
-"技或法律。所有國家都以ISO3166-1二位字母代碼表示。"
+msgstr ""
+"本鍵明確地將某些將特定國家列入其目標受眾，也就是說，該軟體明確表宣示遵守循特"
+"定流程處理程序、科技或法律。所有指定的國家都以 ISO3166-1 alpha-2 "
+"的雙字母國家碼表示。"
 
 #: .en.pc.intendedAudience.unsupportedCountries.label
 msgid "Unsupported Countries"
 msgstr "未支援國家"
 
 #: .en.pc.intendedAudience.unsupportedCountries.description
-#, fuzzy
 msgid ""
 "This key explicitly marks countries as NOT supported. This might be the case "
 "if there is a conflict between how software is working and a specific law, "
 "process or technology. All countries are specified using lowercase ISO 3166-"
 "1 alpha-2 two-letter country codes."
-msgstr "本鍵明確標示不支援的國家。原因可能是因為該軟體運作方式，與該國特定法規、流程"
-"或科技有所衝突。所有國家都以ISO3166-1二位字母代碼表示。"
+msgstr ""
+"本鍵明確標示不支援的國家。原因可能是因為該軟體的運作方式，與該國特定法規、流"
+"程處理程序或科技有所衝突。所有指定的國家都以 ISO 3166-1 alpha-2 "
+"的雙字母國家碼表示。"
 
 #: .en.pc.localisation.localisationReady.label
 msgid "Localisation Ready"
@@ -299,7 +301,7 @@ msgstr "可在地化"
 msgid ""
 "If yes, the software has infrastructure in place or is otherwise designed to "
 "be multilingual. It does not need to be available in more than one language."
-msgstr "若為是，則代表軟體已具備多語架構或設計。這個項目不需要有提供超過一個語言。"
+msgstr "若為是，則代表軟體已具備多語架構或設計。這個項目並不需要提供超過一個語言。"
 
 #: .en.pc.localisation.availableLanguages.label
 msgid "Available Languages"
@@ -521,7 +523,7 @@ msgid ""
 "relation between each technical contact and each maintainer entity. It can "
 "contain for instance a company name, an association name, etc."
 msgstr "本鍵包含技術聯絡人的聯絡資訊。有多位維護人員時，可使用本鍵在每位技術聯絡人與"
-"維護人員之間建立關聯性。本鍵能包含公司名與機構名稱等。"
+"維護單位實體之間建立關聯性。本鍵能包含公司名與機構名稱等。"
 
 #: .en.pc.maintenance.contacts.affiliation.label
 msgid "Affiliation"
@@ -618,7 +620,7 @@ msgstr "最新的相容版本"
 
 #: .en.pc.dependsOn.version.label
 msgid "Exact Version"
-msgstr "明確版本"
+msgstr "指定版本"
 
 #: .en.pc.dependsOn.version.description
 msgid ""
@@ -632,7 +634,7 @@ msgstr "選用"
 
 #: .en.pc.dependsOn.optional.description
 msgid "whether the dependency is optional or mandatory"
-msgstr "指示依賴項目是選用，或是強制須要"
+msgstr "指示依賴項目是可選擇，或是強制要求"
 
 #: .en.pc.publiccodeYmlVersion.label
 msgctxt ".en.pc.publiccodeYmlVersion.label"
@@ -837,7 +839,7 @@ msgstr ""
 
 #: .en.pc.usedBy.label
 msgid "Used By"
-msgstr "採用單位"
+msgstr "採用機關"
 
 #: .en.pc.usedBy.description
 msgid ""
@@ -849,8 +851,8 @@ msgid ""
 "the software."
 msgstr ""
 "軟體維護人員目前知道有正在使用該軟體的主要公家機關（可作為使用見證）列表。鼓"
-"勵語法分析器可以改善此列表加入其他可獨立取得的資訊；像是某個機關所使用的軟體"
-"分支，也可作為該軟體的使用象徵。"
+"勵語法分析器可以加入其他可獨立取得的資訊來改善此列表；像是某個機關所使用的軟"
+"體分支，也可作為該軟體的使用象徵。"
 
 #: .en.pc.inputTypes.label
 msgctxt ".en.pc.inputTypes.label"
@@ -863,8 +865,8 @@ msgid ""
 "application can handle as output. In case the software does not support any "
 "input, you can skip this field or use application/x.empty."
 msgstr ""
-"RFC 6838 規定的媒體類型（MIME類型）列表，讓應用程式可以作輸出的處理。如果軟體"
-"沒有支援任何輸入，您可跳過此欄位，或使用application/x.empty。"
+"RFC 6838 規定的媒體類型（MIME類型）列表，讓應用程式可處理作為輸出。如果軟體沒"
+"有支援任何輸入，您可跳過此欄位，或使用 application/x.empty。"
 
 #: .en.pc.outputTypes.label
 msgctxt ".en.pc.outputTypes.label"
@@ -877,8 +879,8 @@ msgid ""
 "application can handle as output. In case the software does not support any "
 "output, you can skip this field or use application/x.empty."
 msgstr ""
-"RFC 6838 規定的媒體類型（MIME類型）列表，讓應用程式可以作輸出的處理。如果軟體"
-"沒有支援任何輸出，您可跳過此欄位，或使用application/x.empty。"
+"RFC 6838 規定的媒體類型（MIME類型）列表，讓應用程式可處理作為輸出。如果軟體沒"
+"有支援任何輸出，您可跳過此欄位，或使用 application/x.empty。"
 
 #: .it.pc.description.localisedName.label
 msgid "Nome Localizzato"

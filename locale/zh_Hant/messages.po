@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 15:33+0800\n"
-"PO-Revision-Date: 2023-01-23 17:00+0000\n"
+"PO-Revision-Date: 2023-02-01 14:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/italia-publiccode-editor/zh_Hant/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: .en.pc.description.localisedName.label
 msgid "Localised Name"
@@ -387,7 +387,7 @@ msgstr ""
 #: .en.pc.it.piattaforme.pagopa.description
 msgctxt ".en.pc.it.piattaforme.pagopa.description"
 msgid "Se presente e impostato a yes, il software si interfaccia con PagoPA."
-msgstr ""
+msgstr "如果包含此鍵並設為 yes，則代表該軟體配有 pagoPA 介面功能。"
 
 #: .en.pc.it.conforme.label
 msgctxt ".en.pc.it.conforme.label"

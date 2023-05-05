@@ -4,7 +4,7 @@ export const {
   VALIDATOR_URL,
   VALIDATOR_REMOTE_URL,
   DEFAULT_COUNTRY,
-  DEFAULT_LANGUAGE = "it" || navigator.language,
+  DEFAULT_LANGUAGE = "zh_Hant" || navigator.language,
 } = process.env;
 
 export const privacyPolicyUrl = `https://developers.italia.it/it/privacy-policy`;
@@ -15,8 +15,8 @@ export const elasticUrl = ELASTIC_URL || "";
 export const validatorUrl = VALIDATOR_URL || "";
 export const validatorRemoteUrl = VALIDATOR_REMOTE_URL || "";
 export const APP_FORM = "appForm";
-export const defaultCountry = DEFAULT_COUNTRY || "it";
+export const defaultCountry = DEFAULT_COUNTRY || "zh_Hant";
 export const AUTOSAVE_TIMEOUT = 15000;
 export const NOTIFICATION_TIMEOUT = 3000;
-export const DEFAULT_BRANCH = "master";
+export const DEFAULT_BRANCH = "develop";
 export const defaultBranch = { branch: DEFAULT_BRANCH };

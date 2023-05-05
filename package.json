@@ -4,7 +4,7 @@
   "license": "AGPL-3.0-or-later",
   "description": "[License](./LICENSE)",
   "scripts": {
-    "dev": "webpack serve --mode development --port 3000",
+    "dev": "webpack serve --mode development --host 127.0.0.1 --port 6014 --allowed-hosts .toomore.net",
     "lint": "eslint src/app/**/*.js",
     "build-dev": "webpack --config webpack.config.js",
     "build-prod": "webpack --config webpack.config.prod.js",

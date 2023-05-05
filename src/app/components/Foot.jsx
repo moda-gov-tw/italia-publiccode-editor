@@ -119,7 +119,7 @@ export const Footer = (props) => {
           className="editor_button  editor_button--secondary"
           onClick={() => setDialog(!dialog)}
         >
-          {"Upload"}
+          {t("editor.form.upload")}
         </button>
       </div>
       <div className="content__foot_item">

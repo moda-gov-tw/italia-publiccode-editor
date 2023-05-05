@@ -3,96 +3,96 @@
     "pc": {
       "description": {
         "localisedName": {
-          "label": "Localised Name",
-          "description": "This key is an opportunity to localise the name in a specific language. It contains the (short) public name of the product. It should be the name most people usually refer to the software. In case the software has both an internal “code” name and a commercial name, use the commercial name."
+          "label": "\u672c\u571f\u5316\u540d\u7a31",
+          "description": "\u672c\u9375\u4ee3\u8868\u5c07\u540d\u7a31\u7ffb\u8b6f\u6210\u7279\u5b9a\u8a9e\u8a00\u7684\u6a5f\u6703\u3002\u7576\u4e2d\u5305\u542b\u7522\u54c1\u7684\u516c\u958b\u540d\u7a31\u8207\u77ed\u540d\uff0c\u9019\u540d\u7a31\u4e5f\u61c9\u8a72\u662f\u591a\u6578\u6d88\u8cbb\u8005\u7a31\u547c\u8a72\u8edf\u9ad4\u7684\u540d\u5b57\u3002\u82e5\u8a72\u8edf\u9ad4\u6709\u516c\u53f8\u5167\u90e8\u7684\u4ee3\u865f\u4ee5\u53ca\u4e0a\u5e02\u7684\u540d\u7a31\uff0c\u8acb\u4ee5\u4e0a\u5e02\u540d\u7a31\u70ba\u4e3b\u3002"
         },
         "genericName": {
-          "label": "Generic Name",
-          "description": "This key is the “Generic name”, which refers to the specific category to which the software belongs. You can usually find the generic name in the presentation of the software, when you write: “Software xxx is a yyy” Notable examples include “Text Editor”, “Word Processor”, “Web Browser”, “Chat” and so on… The generic name can be up to 35 characters long."
+          "label": "\u901a\u7528\u540d\u7a31",
+          "description": "\u672c\u9375\u70ba\u300c\u901a\u7528\u540d\u7a31\u300d\uff0c\u4e5f\u5c31\u662f\u8edf\u9ad4\u6240\u5c6c\u7684\u7279\u5b9a\u985e\u5225\u3002\u60a8\u901a\u5e38\u53ef\u5728\u8edf\u9ad4\u7684\u7c21\u5831\u767c\u8868\u6703\u4e0a\u770b\u5230\u8edf\u9ad4\u7684\u901a\u7528\u540d\u7a31\uff0c\u901a\u5e38\u90fd\u6703\u770b\u5230\u300cxxx\u8edf\u9ad4\u662fyyy\u300d\u3002\u6bd4\u8f03\u5e38\u898b\u7684\u7bc4\u4f8b\u5305\u62ec\"\u6587\u5b57\u7de8\u8f2f\u5668\"\u3001\"\u6587\u66f8\u8655\u7406\u5668\"\u3001\"\u7db2\u8def\u700f\u89bd\u5668\"\u8207\"\u804a\u5929\u5ba4\"\u7b49\u3002\u901a\u7528\u540d\u7a31\u6700\u591a\u53ef\u670935\u500b\u5b57\u7b26\u3002"
         },
         "shortDescription": {
-          "label": "Short Description",
-          "description": "This key contains a short description of the software. It should be a single line containing a single sentence. Maximum 150 characters are allowed."
+          "label": "\u7c21\u77ed\u63cf\u8ff0",
+          "description": "\u672c\u9375\u5305\u542b\u5c0d\u8edf\u9ad4\u7684\u7c21\u77ed\u63cf\u8ff0\uff0c\u5167\u5bb9\u61c9\u8a72\u662f\u5305\u542b\u4e00\u53e5\u8a71\u7684\u4e00\u884c\u7a0b\u5f0f\u78bc\uff0c\u4e0a\u9650\u70ba150\u500b\u5b57\u7b26\u3002"
         },
         "longDescription": {
-          "label": "Long Description",
-          "description": "This key contains a longer description of the software, between 500 and 10000 chars. It is meant to provide an overview of the capabilities of the software for a potential user. The audience for this text should be that of users of the software, not developers. You can think of this text as the description of the software that would be in its website (if the software had one).This description can contain some basic markdown: *italic*, **bold**, bullet points and [links](#)."
+          "label": "\u5b8c\u6574\u63cf\u8ff0",
+          "description": "\u672c\u9375\u5305\u542b\u5c0d\u8edf\u9ad4\u8f03\u9577\u7684\u63cf\u8ff0\uff0c\u9577\u5ea6\u4ecb\u65bc500\u820710,000\u500b\u5b57\u7b26\u4e4b\u9593\u3002\u672c\u9375\u65e8\u5728\u70ba\u6f5b\u5728\u7528\u6236\u63d0\u4f9b\u8edf\u9ad4\u529f\u80fd\u7684\u6982\u89bd\u3002\u672c\u6bb5\u6587\u5b57\u7684\u53d7\u773e\u61c9\u8a72\u662f\u8edf\u9ad4\u7528\u6236\uff0c\u800c\u975e\u958b\u767c\u4eba\u54e1\u3002\u60a8\u53ef\u5c07\u672c\u6bb5\u6587\u5b57\u8996\u70ba\u61c9\u8a72\u653e\u5728\u8edf\u9ad4\u5b98\u7db2\u4e0a(\u82e5\u6709)\u7528\u4f86\u63cf\u8ff0\u8edf\u9ad4\u7684\u6587\u5b57\u3002\u672c\u6bb5\u63cf\u8ff0\u53ef\u4ee5\u5305\u542b\u57fa\u672cmarkdown\uff1a *italic*\u3001**bold**\u3001\u9805\u76ee\u7b26\u865f\u8207[links](#)\u3002"
         },
         "documentation": {
-          "label": "Documentation",
-          "description": "This key contains a reference to the user-level (not developer-level) documentation of the software. The value must be a URL to a hosted version of the documentation.It is suggested that the URL points to a hosted version of the documentation that is immediately readable through a common web browser in both desktop and mobile format. The documentation should be rendered in HTML and browsable like a website (with a navigation index, a search bar, etc.)."
+          "label": "\u8a3b\u89e3",
+          "description": "\u672c\u9375\u63d0\u5230\u8edf\u9ad4\u4f7f\u7528\u8005\u968e\u5c64(\u975e\u958b\u767c\u4eba\u54e1\u968e\u5c64)\u8a3b\u89e3\u3002\u672c\u9375\u7684\u503c\u5fc5\u9808\u662f\u8a72\u8a3b\u89e3\u8a17\u7ba1\u7248\u672c\u7684\u9023\u7d50\u3002\u5efa\u8b70\u8a72\u9023\u7d50\u662f\u9023\u7d50\u5230\u8a3b\u89e3\u7684\u8a17\u7ba1\u7248\u672c\uff0c\u5982\u6b64\u4e00\u4f86\u4e0d\u8ad6\u662f\u96fb\u8166\u6216\u662f\u884c\u52d5\u88dd\u7f6e\uff0c\u90fd\u80fd\u4f7f\u7528\u7db2\u8def\u700f\u89bd\u5668\u7acb\u5373\u95b1\u8b80\u8a72\u8a3b\u89e3\u3002\u672c\u8a3b\u89e3\u61c9\u8a72\u4ee5HTML\u6e32\u67d3\uff0c\u4e26\u4e14\u53ef\u4ee5\u8ddf\u7db2\u7ad9\u4e00\u6a23\u700f\u89bd(\u5305\u542b\u9801\u9762\u5c0e\u89bd\u3001\u641c\u5c0b\u6b04\u7b49)\u3002"
         },
         "apiDocumentation": {
-          "label": "API Documentation",
-          "description": "This key contains a reference to the API documentation of the software. The value must be a URL to a hosted version of the documentation.It is suggested that the URL points to a hosted version of the documentation that is immediately readable through a common web browser. The documentation should be rendered in HTML and browsable like a website (with a navigation index, a search bar, etc.), and if there is a reference or test deployment, possibly offer an interactive interface (e.g. Swagger)."
+          "label": "API\u8a3b\u89e3",
+          "description": "\u672c\u9375\u5305\u542b\u5c0d\u8edf\u9ad4API\u8a3b\u89e3\u7684\u53c3\u7167\u3002\u672c\u9375\u7684\u503c\u5fc5\u9808\u662f\u5c0d\u8a17\u7ba1\u7248\u672c\u7684\u8a3b\u89e3\u7684\u9023\u7d50\u3002\u5efa\u8b70\u8a72\u9023\u7d50\u662f\u9023\u7d50\u5230\u8a3b\u89e3\u7684\u8a17\u7ba1\u7248\u672c\uff0c\u5982\u6b64\u4e00\u4f86\u4e0d\u8ad6\u662f\u96fb\u8166\u6216\u662f\u884c\u52d5\u88dd\u7f6e\uff0c\u90fd\u80fd\u4f7f\u7528\u7db2\u8def\u700f\u89bd\u5668\u7acb\u5373\u95b1\u8b80\u8a72\u8a3b\u89e3\u3002\u672c\u8a3b\u89e3\u61c9\u8a72\u4ee5HTML\u6e32\u67d3\uff0c\u4e26\u4e14\u53ef\u4ee5\u8ddf\u7db2\u7ad9\u4e00\u6a23\u700f\u89bd(\u5305\u542b\u9801\u9762\u5c0e\u89bd\u3001\u641c\u5c0b\u6b04\u7b49)\u3002\u5982\u679c\u6709\u53c3\u7167\u6216\u662f\u6e2c\u8a66\u90e8\u7f72\uff0c\u53ef\u4ee5\u7684\u8a71\u8acb\u63d0\u4f9b\u4e92\u52d5\u5f0f\u4ecb\u9762(\u50cf\u662fSwagger)\u3002"
         },
         "features": {
-          "label": "Features",
-          "description": "This key contains a list of software features, describing what capabilities the software allows to do. The audience for this text should be that of public decision makers who will be commissioning the software. The features should thus not target developers: instead of listing technical features referring to implementation details, prefer listing user-visible functionalities of the software.While the key is mandatory, there is no mandatory minimum or maximum number of features that should be listed in this key. Each feature must use a maximum of 100 characters.The suggested number of features to list is between 5 and 20, depending on the software size and complexity. There is no need for exhaustiveness, as users can always read the documentation for additional information.",
+          "label": "\u529f\u80fd",
+          "description": "\u672c\u9375\u5305\u542b\u8edf\u9ad4\u529f\u80fd\u5217\u8868\uff0c\u63cf\u8ff0\u8a72\u8edf\u9ad4\u80fd\u63d0\u4f9b\u7684\u529f\u80fd\u3002\u672c\u6bb5\u6587\u5b57\u7684\u53d7\u773e\u61c9\u8a72\u662f\u59d4\u8a17\u88fd\u4f5c\u8edf\u9ad4\u7684\u516c\u5171\u6c7a\u7b56\u8005\uff0c\u56e0\u6b64\u5217\u51fa\u4f86\u7684\u529f\u80fd\u4e0d\u61c9\u8a72\u4ee5\u958b\u767c\u4eba\u54e1\u70ba\u76ee\u6a19\uff0c\u800c\u662f\u61c9\u8a72\u5217\u51fa\u6280\u8853\u529f\u80fd\uff0c\u50cf\u662f\u57f7\u884c\u8a73\u7d30\u8cc7\u8a0a\u7b49\u3002\u8acb\u4ee5\u4f7f\u7528\u8005\u80fd\u770b\u51fa\u7684\u8edf\u9ad4\u529f\u80fd\u70ba\u4e3b\u3002\u96d6\u7136\u672c\u9375\u662f\u5fc5\u8981\u7684\uff0c\u4f46\u6c92\u6709\u898f\u5b9a\u672c\u9375\u7576\u4e2d\u61c9\u8a72\u5217\u51fa\u7684\u529f\u80fd\u6578\u91cf\u4e0a\u9650\u8207\u4e0b\u9650\u3002\u6bcf\u500b\u529f\u80fd\u7684\u4ecb\u7d39\u6587\u5b57\u4e0d\u5f97\u8d85\u904e100\u500b\u5b57\u7b26\u3002\u5efa\u8b70\u60a8\u6839\u64da\u8edf\u9ad4\u5927\u5c0f\u8207\u8907\u96dc\u7a0b\u5ea6\uff0c\u5217\u51fa5\u81f320\u500b\u529f\u80fd\u3002\u6c92\u6709\u5fc5\u8981\u5217\u51fa\u6240\u6709\u529f\u80fd\uff0c\u56e0\u70ba\u9700\u8981\u984d\u5916\u8cc7\u8a0a\u7684\u4f7f\u7528\u8005\u53ef\u4ee5\u81ea\u5df1\u770b\u8a3b\u89e3\u3002",
           "value": {
-            "label": "Feature",
+            "label": "\u529f\u80fd",
             "description": ""
           }
         },
         "awards": {
-          "label": "Awards",
-          "description": "A list of awards won by the software."
+          "label": "\u734e\u9805",
+          "description": "\u8edf\u9ad4\u7372\u734e\u6e05\u55ae\u3002"
         },
         "screenshots": {
           "label": "Screenshots",
-          "description": "This key is for some software screens with purpose to show an overview on how it works. It can be a relative or absolute path"
+          "description": "\u672c\u9375\u70ba\u8edf\u9ad4\u87a2\u5e55\u622a\u5716\uff0c\u65e8\u5728\u63d0\u4f9b\u8edf\u9ad4\u904b\u4f5c\u6982\u8ff0\u3002\u672c\u9375\u53ef\u4ee5\u662f\u76f8\u5c0d\u6216\u7d55\u5c0d\u8def\u5f91"
         },
         "videos": {
-          "label": "Videos",
-          "description": "This key contains one or multiple URLs of videos showing how the software works. Like screenshots, videos should be used to give a quick overview on how the software looks like and how it works. Videos must be hosted on a video sharing website that supports the oEmbed standard; popular options are YouTube and Vimeo."
+          "label": "\u5f71\u7247",
+          "description": "\u672c\u9375\u5305\u542b\u89e3\u91cb\u8edf\u9ad4\u904b\u4f5c\u65b9\u5f0f\u7684\u5f71\u7247\u7684\u4e00\u6216\u591a\u500bURL\u3002\u5f71\u7247\u8ddf\u87a2\u5e55\u622a\u5716\u4e00\u6a23\uff0c\u61c9\u8a72\u80fd\u8fc5\u901f\u8b93\u4f7f\u7528\u8005\u77ad\u89e3\u8edf\u9ad4\u7684\u5916\u89c0\u8207\u529f\u80fd\u3002\u5f71\u7247\u5fc5\u9808\u8a17\u7ba1\u5728\u652f\u63f4[oEmbed](<<https://oembed.com>>)\u6a19\u6e96\u7684\u5f71\u97f3\u5206\u4eab\u7db2\u7ad9\uff0c\u6700\u5e38\u898b\u7684\u9078\u9805\u662fYouTube\u8207Vimeo\u3002"
         }
       },
       "legal": {
         "license": {
-          "label": "License",
-          "description": "This string describes the license under which the software is distributed. The string must contain a valid SPDX expression, referring to one (or multiple) open-source license. Please refer to the SPDX documentation for further information."
+          "label": "\u6388\u6b0a",
+          "description": "\u672c\u5b57\u4e32\u63cf\u8ff0\u8edf\u9ad4\u6563\u4f48\u7684\u6388\u6b0a\u3002\u8a72\u5b57\u4e32\u5fc5\u9808\u5305\u542b\u6709\u6548\u7684SPDX expression\uff0c\u53c3\u7167\u4e00\u6216\u591a\u500b\u958b\u6e90\u6388\u6b0a\u3002\u8a73\u7d30\u8cc7\u8a0a\u8acb\u53c3\u95b1SPDX\u6587\u4ef6\u3002"
         },
         "mainCopyrightOwner": {
-          "label": "Main Copyright Owner",
-          "description": "This string describes the entity that owns the copyright on 'most' of the code in the repository. Normally, this is the line that is reported with the copyright symbol at the top of most files in the repo."
+          "label": "\u4e3b\u8981\u8457\u4f5c\u6b0a\u6240\u6709\u4eba",
+          "description": "\u672c\u5b57\u4e32\u63cf\u8ff0\u64c1\u6709\u5132\u5b58\u5eab\u7576\u4e2d\uff0c\u300c\u591a\u6578\u300d\u7a0b\u5f0f\u78bc\u8457\u4f5c\u6b0a\u7684\u5be6\u9ad4\u3002\u901a\u5e38\u4f86\u8aaa\uff0c\u672c\u9375\u662f\u4e00\u884c\u5177\u6709\u8457\u4f5c\u6b0a\u6a19\u8a8c\u7684\u6587\u5b57\uff0c\u4e14\u6703\u51fa\u73fe\u5728\u5132\u5b58\u5eab\u591a\u6578\u6a94\u6848\u7684\u9801\u9996\u3002"
         },
         "repoOwner": {
-          "label": "Repository Owner",
-          "description": "This string describes the entity that owns this repository; this might or might not be the same entity who owns the copyright on the code itself. For instance, in case of a fork of the original software, the repoOwner is probably different from the mainCopyrightOwner."
+          "label": "\u5132\u5b58\u5eab\u6240\u6709\u4eba",
+          "description": "\u672c\u5b57\u4e32\u63cf\u8ff0\u64c1\u6709\u672c\u5132\u5b58\u5eab\u7684\u5be6\u9ad4\uff0c\u53ef\u80fd\u662f\u4e5f\u53ef\u80fd\u4e0d\u662f\u7a0b\u5f0f\u78bc\u672c\u8eab\u7684\u8457\u4f5c\u6b0a\u6240\u6709\u4eba\u3002\u8209\u4f8b\u4f86\u8aaa\uff0c\u5728\u539f\u59cb\u8edf\u9ad4\u7684\u5206\u652f\uff0crepoOwner\u8ddfmainCopyrightOwner\u53ef\u80fd\u662f\u4e0d\u540c\u5be6\u9ad4\u3002"
         },
         "authorsFile": {
-          "label": "Authors File",
-          "description": "Some open-source softwares adopt a convention of identify the copyright holders through a file that lists all the entities that own the copyright. This is common in projects strongly backed by a community where there are many external contributors and no clear single/main copyright owner. In such cases, this key can be used to refer to the authors file, using a path relative to the root of the repository."
+          "label": "\u4f5c\u8005\u6a94\u6848",
+          "description": "\u6709\u4e9b\u958b\u6e90\u8edf\u9ad4\u7684\u505a\u6cd5\uff0c\u662f\u5c07\u64c1\u6709\u5176\u8457\u4f5c\u6b0a\u7684\u6240\u6709\u5be6\u9ad4\u5217\u5728\u6a94\u6848\u4e2d\u3002\u9019\u5728\u7531\u793e\u7fa4\u6240\u652f\u6301\u7684\u5c08\u6848\u4e2d\u76f8\u7576\u5e38\u898b\uff0c\u9019\u4e9b\u5c08\u6848\u6709\u8a31\u591a\u5916\u90e8\u8ca2\u737b\u8005\u4e14\u6c92\u6709\u660e\u78ba/\u4e3b\u8981\u8457\u4f5c\u6b0a\u6240\u6709\u4eba\u3002\u5728\u6b64\u60c5\u6cc1\u4e0b\uff0c\u672c\u9375\u53ef\u900f\u904e\u5132\u5b58\u5eab\u6839\u76ee\u9304\u7684\u76f8\u5c0d\u8def\u5f91\uff0c\u53c3\u7167\u4f5c\u8005\u6a94\u6848\u3002"
         }
       },
       "intendedAudience": {
         "scope": {
-          "label": "Scope",
-          "description": "Public software could be very specific in scope because there is a large set of tasks that are specific to each type of administration. For instance, many softwares that are used in schools are probably not useful in hospitals. If you want to explicitly mark some software as only useful to certain types of administrations, you should add them to this key.The list of allowed values is defined in pa-types.md, and can be country-specific. This list can evolve at any time, separately from the version of this specification."
+          "label": "\u7bc4\u570d",
+          "description": "\u516c\u5171\u8edf\u9ad4\u7684\u9069\u7528\u7bc4\u570d\u53ef\u80fd\u76f8\u7576\u660e\u78ba\uff0c\u56e0\u70ba\u4e0d\u540c\u7684\u884c\u653f\u6a5f\u95dc\uff0c\u90fd\u6709\u81ea\u5df1\u8ca0\u8cac\u7684\u8a31\u591a\u4efb\u52d9\u3002\u8209\u4f8b\u4f86\u8aaa\uff0c\u5b78\u6821\u7528\u7684\u8edf\u9ad4\u5c31\u4e0d\u9069\u7528\u65bc\u91ab\u9662\u3002\u5982\u679c\u60a8\u60f3\u5c07\u4e00\u4e9b\u8edf\u9ad4\u6e05\u695a\u6a19\u793a\u70ba\u53ea\u9069\u7528\u65bc\u7279\u5b9a\u985e\u578b\u7684\u6a5f\u95dc\uff0c\u5c31\u61c9\u8a72\u5c07\u9019\u4e9b\u6a5f\u95dc\u52a0\u5165\u5230\u6b64\u9375\u4e2d\u3002\u5141\u8a31\u503c\u5217\u8868\u5b9a\u7fa9\u5728pa-types.md\u7576\u4e2d\uff0c\u800c\u4e14\u6bcf\u500b\u570b\u5bb6\u90fd\u4e0d\u540c\u3002\u672c\u5217\u8868\u96a8\u6642\u90fd\u6703\u6539\u8b8a\uff0c\u4e0d\u53d7\u8edf\u9ad4\u7248\u672c\u5f71\u97ff\u3002"
         },
         "countries": {
-          "label": "Countries",
-          "description": "This key explicitly includes certain countries in the intended audience, i.e. the software explicitly claims compliance with specific processes, technologies or laws. All countries are specified using lowercase ISO 3166-1 alpha-2 two-letter country codes."
+          "label": "\u570b\u5bb6",
+          "description": "\u672c\u9375\u660e\u78ba\u5730\u5c07\u67d0\u4e9b\u570b\u5bb6\u5217\u5165\u5176\u76ee\u6a19\u53d7\u773e\u3002\u63db\u53e5\u8a71\u8aaa\uff0c\u8a72\u8edf\u9ad4\u660e\u78ba\u8868\u793a\u9075\u5b88\u7279\u5b9a\u6d41\u7a0b\u3001\u79d1\u6280\u6216\u6cd5\u5f8b\u3002\u6240\u6709\u570b\u5bb6\u90fd\u4ee5ISO3166-1\u4e8c\u4f4d\u5b57\u6bcd\u4ee3\u78bc\u8868\u793a\u3002"
         },
         "unsupportedCountries": {
-          "label": "Unsupported Countries",
-          "description": "This key explicitly marks countries as NOT supported. This might be the case if there is a conflict between how software is working and a specific law, process or technology. All countries are specified using lowercase ISO 3166-1 alpha-2 two-letter country codes."
+          "label": "\u672a\u652f\u63f4\u570b\u5bb6",
+          "description": "\u672c\u9375\u660e\u78ba\u6a19\u793a\u4e0d\u652f\u63f4\u7684\u570b\u5bb6\u3002\u539f\u56e0\u53ef\u80fd\u662f\u56e0\u70ba\u8a72\u8edf\u9ad4\u904b\u4f5c\u65b9\u5f0f\uff0c\u8207\u8a72\u570b\u7279\u5b9a\u6cd5\u898f\u3001\u6d41\u7a0b\u6216\u79d1\u6280\u6709\u6240\u885d\u7a81\u3002\u6240\u6709\u570b\u5bb6\u90fd\u4ee5ISO3166-1\u4e8c\u4f4d\u5b57\u6bcd\u4ee3\u78bc\u8868\u793a\u3002"
         }
       },
       "localisation": {
         "localisationReady": {
-          "label": "Localisation Ready",
-          "description": "If yes, the software has infrastructure in place or is otherwise designed to be multilingual. It does not need to be available in more than one language."
+          "label": "\u53ef\u672c\u5730\u5316",
+          "description": "\u82e5\u53ef\u672c\u5730\u5316\uff0c\u4ee3\u8868\u8edf\u9ad4\u6709\u591a\u8a9e\u8a00\u7684\u67b6\u69cb\u6216\u8a2d\u8a08\uff0c\u56e0\u6b64\u4e0d\u9700\u8981\u63d0\u4f9b\u591a\u8a9e\u8a00\u7248\u672c\u3002"
         },
         "availableLanguages": {
-          "label": "Available Languages",
-          "description": "If present, this is the list of languages in which the software is available. Of course, this list will contain at least one language. The primary language subtag cannot be omitted, as mandated by the. See also: https://tools.ietf.org/html/bcp47"
+          "label": "\u53ef\u7528\u8a9e\u8a00",
+          "description": "\u82e5\u6709\u6b64\u9375\uff0c\u4ee3\u8868\u8a72\u8edf\u9ad4\u7684\u5404\u8a9e\u8a00\u7248\u672c\u5217\u8868\u3002\u8a72\u5217\u8868\u81f3\u5c11\u6703\u6709\u4e00\u500b\u8a9e\u8a00\u3002\u6839\u64daBCP 47\u898f\u5b9a\uff0c\u4e0d\u80fd\u522a\u9664\u4e3b\u8981\u8a9e\u8a00\u5b50\u6a19\u7c64\u3002\u8acb\u53c3\u95b1\uff1ahttps://tools.ietf.org/html/bcp47"
         }
       },
       "it": {
         "countryExtensionVersion": {
-          "label": "Country Ext. Version",
-          "description": "Country Extension version"
+          "label": "\u570b\u5bb6\u64f4\u5145\u7248",
+          "description": "\u570b\u5bb6\u64f4\u5145\u7248"
         },
         "riuso": {
           "codiceIPA": {
@@ -104,11 +104,11 @@
           "label": "Piattaforme",
           "spid": {
             "label": "SPID",
-            "description": "Se presente e impostato a yes, il software si interfaccia con SPID - il Sistema Pubblico di Identità Digitale."
+            "description": "Se presente e impostato a yes, il software si interfaccia con SPID - il Sistema Pubblico di Identit\u00e0 Digitale."
           },
           "cie": {
             "label": "CIE",
-            "description": "Se presente e impostato a yes, il software si interfaccia con la Carta di Identità Elettronica."
+            "description": "Se presente e impostato a yes, il software si interfaccia con la Carta di Identit\u00e0 Elettronica."
           },
           "anpr": {
             "label": "ANPR",
@@ -123,15 +123,15 @@
           "label": "Conforme",
           "lineeGuidaDesign": {
             "label": "Linee guida design",
-            "description": "Se presente e impostato a yes, il software è conforme alle linee guida di design."
+            "description": "Se presente e impostato a yes, il software \u00e8 conforme alle linee guida di design."
           },
           "modelloInteroperabilita": {
             "label": "Interoperabile",
-            "description": "Se presente e impostato a yes, il software è conforme alle linee guida sull'interoperabilità.Riferimento normativo: Art. 73 del CAD."
+            "description": "Se presente e impostato a yes, il software \u00e8 conforme alle linee guida sull'interoperabilit\u00e0.Riferimento normativo: Art. 73 del CAD."
           },
           "misureMinimeSicurezza": {
             "label": "Misure minime sicurezza",
-            "description": "Se presente e impostato a yes, il software è conforme alle Misure minime di sicurezza ICT per le Pubbliche amministrazioni."
+            "description": "Se presente e impostato a yes, il software \u00e8 conforme alle Misure minime di sicurezza ICT per le Pubbliche amministrazioni."
           },
           "gdpr": {
             "label": "GDPR",
@@ -141,71 +141,71 @@
       },
       "maintenance": {
         "type": {
-          "label": "Maintenance Type",
-          "description": "This key describes how the software is currently maintained. 'internal' means that the software is internally maintained by the repository owner. 'contract' means that there is a commercial contract that binds an entity to the maintenance of the software; 'community' means that the software is currently maintained by one or more people that donate their time to the project; 'none' means that the software is not actively maintained."
+          "label": "\u7dad\u8b77\u985e\u578b",
+          "description": "\u672c\u9375\u63cf\u8ff0\u8edf\u9ad4\u76ee\u524d\u7dad\u8b77\u65b9\u5f0f\u3002\u300cInternal\u300d\u4ee3\u8868\u7531\u5132\u5b58\u5eab\u6240\u6709\u4eba\u5f9e\u5167\u90e8\u9032\u884c\u7dad\u8b77\u3002\u300ccontract\u300d\u4ee3\u8868\u6709\u8207\u5be6\u9ad4\u7c3d\u7d04\uff0c\u7531\u8a72\u5be6\u9ad4\u8ca0\u8cac\u7dad\u8b77\u8edf\u9ad4;\u300ccommunity\u300d\u4ee3\u8868\u8edf\u9ad4\u7531\u4e00\u6216\u591a\u4f4d\u5c08\u6848\u5fd7\u9858\u8005\u4f86\u7dad\u8b77;\u300cnone\u300d\u5247\u4ee3\u8868\u8edf\u9ad4\u6c92\u6709\u7a4d\u6975\u7dad\u8b77\u3002"
         },
         "contacts": {
-          "label": "Contacts",
-          "description": "One or more contacts maintaining this software. This key describes the technical people currently responsible for maintaining the software. All contacts need to be a physical person, not a company or an organisation. if somebody is acting as a representative of an institution, it must be listed within the affiliation of the contact. In case of a commercial agreement (or a chain of such agreements), specify the final entities actually contracted to deliver the maintenance. Do not specify the software owner unless it is technically involved with the maintenance of the product as well.",
+          "label": "\u806f\u7d61\u4eba",
+          "description": "\u4e00\u6216\u591a\u4f4d\u806f\u7d61\u4eba\u8ca0\u8cac\u7dad\u8b77\u672c\u8edf\u9ad4\u3002\u672c\u9375\u63cf\u8ff0\u76ee\u524d\u8ca0\u8cac\u7dad\u8b77\u8edf\u9ad4\u7684\u6280\u8853\u4eba\u54e1\u3002\u6240\u6709\u806f\u7d61\u4eba\u90fd\u5fc5\u9808\u662f\u771f\u4eba\uff0c\u800c\u975e\u516c\u53f8\u6216\u7d44\u7e54\u3002\u82e5\u6709\u4eba\u4ee3\u8868\u4e00\u500b\u6a5f\u69cb\uff0c\u5247\u5fc5\u9808\u5728\u5408\u7d04\u7684\u806f\u7d61\u8cc7\u8a0a\u4e2d\u8a3b\u660e\u3002\u5982\u679c\u662f\u7c3d\u7f72\u5546\u696d\u5354\u8b70(\u6216\u662f\u591a\u4efd\u5546\u696d\u5354\u8b70)\uff0c\u8acb\u6307\u660e\u5be6\u969b\u7c3d\u7d04\u4f86\u8ca0\u8cac\u7dad\u8b77\u8edf\u9ad4\u7684\u5be6\u9ad4\u3002\u9664\u975e\u6709\u53c3\u8207\u7522\u54c1\u7dad\u8b77\uff0c\u5426\u5247\u8acb\u52ff\u6307\u660e\u8edf\u9ad4\u6240\u6709\u4eba\u3002",
           "name": {
-            "description": " mandatory - This key contains the full name of one of the technical contacts. It must be a real person; do NOT populate this key with generic contact information, company departments, associations, etc.",
-            "label": "Name"
+            "description": " \u5fc5\u8981 - \u672c\u9375\u5305\u542b\u6280\u8853\u806f\u7d61\u4eba\u4e4b\u4e00\u7684\u5168\u540d\u3002\u6280\u8853\u9023\u7d61\u4eba\u5fc5\u9808\u662f\u771f\u4eba\uff0c\u6240\u4ee5\u8acb\u52ff\u5c07\u4e00\u822c\u806f\u7d61\u4eba\u8cc7\u8a0a\u3001\u516c\u53f8\u90e8\u9580\u6216\u5354\u6703\u7b49\u8cc7\u8a0a\u586b\u5165\u6b64\u9375\u4e2d\u3002",
+            "label": "\u540d\u7a31"
           },
           "phone": {
-            "description": "Phone number (with international prefix)",
-            "label": "Phone"
+            "description": "\u96fb\u8a71\u865f\u78bc(\u5305\u542b\u570b\u969b\u51a0\u78bc)",
+            "label": "\u96fb\u8a71"
           },
           "email": {
-            "description": "This key contains the e-mail address of the technical contact. It must be an email address of where the technical contact can be directly reached; do NOT populate this key with mailing-lists or generic contact points like info@acme.inc. ",
+            "description": "\u672c\u9375\u5305\u542b\u6280\u8853\u9023\u7d61\u4eba\u7684\u96fb\u5b50\u90f5\u4ef6\u4fe1\u7bb1\uff0c\u5fc5\u9808\u662f\u80fd\u76f4\u63a5\u806f\u7e6b\u4e0a\u8a72\u6280\u8853\u806f\u7d61\u4eba\u7684\u96fb\u5b50\u90f5\u4ef6\u4fe1\u7bb1\u3002\u8acb\u52ff\u8f38\u5165info@acme.inc\u9019\u6a23\u7684\u4e00\u822c\u90f5\u5bc4\u540d\u55ae\u3002 ",
             "label": "Email"
           },
           "affiliation": {
-            "description": "This key contains an explicit affiliation information for the technical contact. In case of multiple maintainers, this can be used to create a relation between each technical contact and each maintainer entity. It can contain for instance a company name, an association name, etc.",
-            "label": "Affiliation"
+            "description": "\u672c\u9375\u5305\u542b\u6280\u8853\u806f\u7d61\u4eba\u7684\u806f\u7d61\u8cc7\u8a0a\u3002\u6709\u591a\u4f4d\u7dad\u8b77\u4eba\u54e1\u6642\uff0c\u53ef\u4f7f\u7528\u672c\u9375\u5728\u6bcf\u4f4d\u6280\u8853\u806f\u7d61\u4eba\u8207\u7dad\u8b77\u4eba\u54e1\u4e4b\u9593\u5efa\u7acb\u95dc\u806f\u6027\u3002\u672c\u9375\u80fd\u5305\u542b\u516c\u53f8\u540d\u8207\u6a5f\u69cb\u540d\u7a31\u7b49\u3002",
+            "label": "\u806f\u7e6b"
           }
         },
         "contractors": {
-          "label": "Contractors",
-          "description": "This key describes the entity or entities, if any, that are currently contracted for maintaining the software. They can be companies, organizations, or other collective names.",
+          "label": "\u627f\u5305\u5546",
+          "description": "\u672c\u9375\u63cf\u8ff0\u76ee\u524d\u7c3d\u7d04\u4f86\u7dad\u8b77\u8edf\u9ad4\u7684\u5be6\u9ad4(\u82e5\u6709)\uff0c\u9019\u4e9b\u5be6\u9ad4\u53ef\u4ee5\u662f\u516c\u53f8\u3001\u7d44\u7e54\u6216\u662f\u5176\u4ed6\u7fa4\u9ad4\u3002",
           "name": {
-            "label": "Name",
-            "description": "mandatory - The name of the contractor, whether it's a company or a physical person."
+            "label": "\u540d\u7a31",
+            "description": "\u5fc5\u8981 - \u627f\u5305\u5546\u59d3\u540d\uff0c\u53ef\u4ee5\u662f\u516c\u53f8\u6216\u662f\u672c\u4eba\u3002"
           },
           "until": {
-            "label": "Until",
-            "description": "mandatory - This is a date (YYYY-MM-DD). This key must contain the date at which the maintenance is going to end. In case of community maintenance, the value should not be more than 2 years in the future, and thus will need to be regularly updated as the community continues working on the project."
+            "label": "\u5230\u671f\u65e5",
+            "description": "\u5fc5\u8981 - \u9019\u662f\u65e5\u671f(YYYY-MM-DD)\u3002\u672c\u9375\u5fc5\u9808\u5305\u542b\u7dad\u8b77\u7d50\u675f\u7684\u65e5\u671f\u3002\u5982\u679c\u662f\u7531\u793e\u7fa4\u9032\u884c\u7dad\u8b77\uff0c\u672c\u9375\u7684\u503c\u4e0d\u61c9\u8a72\u8d85\u904e\u672a\u4f862\u5e74\u3002\u56e0\u6b64\u96a8\u8457\u793e\u7fa4\u6301\u7e8c\u6539\u5584\u5c08\u6848\uff0c\u4e5f\u5fc5\u9808\u5b9a\u671f\u66f4\u65b0\u672c\u9375\u7684\u503c\u3002"
           },
           "website": {
-            "label": "website",
-            "description": "This key points to the maintainer website. It can either point to the main institutional website, or to a more project-specific page or website."
+            "label": "\u7db2\u7ad9",
+            "description": "\u672c\u9375\u6307\u5411\u7dad\u8b77\u4eba\u54e1\u7db2\u7ad9\uff0c\u53ef\u4ee5\u662f\u8a72\u516c\u53f8\u5b98\u7db2\uff0c\u6216\u662f\u8207\u5c08\u6848\u76f8\u95dc\u7684\u7db2\u9801\u6216\u7db2\u7ad9\u3002"
           }
         }
       },
       "dependsOn": {
-        "label": "Depends On",
-        "description": "This section provides an overview on the system-level dependencies required to install and use this software.",
+        "label": "\u76f8\u4f9d\u6027",
+        "description": "\u672c\u6bb5\u843d\u63d0\u4f9b\u5b89\u88dd\u8207\u4f7f\u7528\u672c\u8edf\u9ad4\u6642\uff0c\u6240\u9700\u7684\u7cfb\u7d71\u968e\u5c64\u76f8\u4f9d\u6027\u6982\u89bd\u3002",
         "type": {
-          "label": "Type"
+          "label": "\u985e\u578b"
         },
         "name": {
-          "label": "Name",
-          "description": "mandatory - The name of the dependency (e.g. MySQL, NFC Reader)"
+          "label": "\u540d\u7a31",
+          "description": "\u5fc5\u8981 - \u76f8\u4f9d\u6027\u540d\u7a31(\u4f8b\u5982MySQL\u3001NFC Reader)"
         },
         "versionMin": {
           "label": "Version Range Min",
-          "description": "the first compatible version"
+          "description": "\u7b2c\u4e00\u500b\u76f8\u5bb9\u7248\u672c"
         },
         "versionMax": {
           "label": "Version Range Max",
-          "description": "the latest compatible version"
+          "description": "\u6700\u65b0\u76f8\u5bb9\u7248\u672c"
         },
         "version": {
           "label": "Exact Version",
-          "description": "the only major version for which the software is compatible. It assumes compatibility with all patches and bugfixes later applied to this version."
+          "description": "\u8edf\u9ad4\u76f8\u5bb9\u7684\u552f\u4e00\u4e3b\u8981\u7248\u672c\uff0c\u4e26\u4e14\u80fd\u76f8\u5bb9\u4e4b\u5f8c\u63a8\u51fa\u7684\u6240\u6709\u4fee\u5fa9\u8207\u9664\u932f\u66f4\u65b0\u3002"
         },
         "optional": {
-          "label": "Optional",
-          "description": "whether the dependency is optional or mandatory"
+          "label": "\u975e\u5fc5\u8981",
+          "description": "\u76f8\u4f9d\u6027\u662f\u5426\u5fc5\u8981"
         }
       },
       "publiccodeYmlVersion": {
@@ -213,72 +213,72 @@
         "description": "hidden field for actual publiccode version"
       },
       "name": {
-        "label": "Name of the software",
-        "description": "This key contains the name of the software. It contains the (short) public name of the product, which can be localised in the specific localisation section. It should be the name most people usually refer to the software. In case the software has both an internal 'code' name and a commercial name, use the commercial name."
+        "label": "\u8edf\u9ad4\u540d\u7a31",
+        "description": "\u672c\u9375\u5305\u542b\u8edf\u9ad4\u540d\u7a31\u3002\u672c\u9375\u5305\u542b\u7684\u662f\u7522\u54c1\u7684\u516c\u958b\u540d\u7a31\u8207\u77ed\u540d\uff0c\u80fd\u5920\u5728\u672c\u5730\u5316\u7a0b\u5f0f\u78bc\u6bb5\u843d\u4e2d\u672c\u5730\u5316\u3002\u61c9\u8a72\u63a1\u7528\u7684\u662f\u6700\u591a\u4eba\u7a31\u547c\u8a72\u8edf\u9ad4\u7684\u540d\u7a31\u3002\u5982\u679c\u8edf\u9ad4\u6709\u516c\u53f8\u5167\u90e8\u7684\u4ee3\u865f\u8207\u4e0a\u5e02\u540d\u7a31\uff0c\u8acb\u4ee5\u4e0a\u5e02\u540d\u7a31\u70ba\u4e3b\u3002"
       },
       "releaseDate": {
-        "label": "Release Date",
-        "description": "This key contains the date at which the latest version was released. This date is mandatory if the software has been released at least once and thus the version number is present."
+        "label": "\u767c\u4f48\u65e5\u671f",
+        "description": "\u672c\u9375\u5305\u542b\u6700\u65b0\u8edf\u9ad4\u7248\u672c\u767c\u4f48\u6642\u7684\u65e5\u671f\u3002\u5982\u679c\u8edf\u9ad4\u5df2\u7d93\u88ab\u767c\u4f48\u904e\u81f3\u5c11\u4e00\u6b21\uff0c\u56e0\u6b64\u6709\u7248\u672c\u7de8\u865f\u6642\uff0c\u5247\u5fc5\u9808\u8981\u7528\u6b64\u9375\u6a19\u793a\u8a72\u65e5\u671f\u3002"
       },
       "url": {
-        "label": "Repository URL",
-        "description": "A unique identifier for this software. This string must be a URL to the source code repository (git, svn, ...) in which the software is published. If the repository is available under multiple protocols, prefer HTTP/HTTPS URLs which don't require user authentication."
+        "label": "\u5132\u5b58\u5eab\u9023\u7d50",
+        "description": "\u8a72\u8edf\u9ad4\u7279\u6709\u7684\u8b58\u5225\u7b26\u865f\u3002\u6b64\u5b57\u4e32\u5fc5\u9808\u662f\u7576\u521d\u8edf\u9ad4\u767c\u4f48\u6642\uff0c\u6240\u5728\u7684\u539f\u59cb\u78bc\u5132\u5b58\u5eab(git, svn, ...)\u9023\u7d50\u3002\u5982\u679c\u5132\u5b58\u5eab\u63a1\u7528\u591a\u7a2e\u5354\u5b9a\uff0c\u8acb\u4ee5\u4e0d\u9700\u8981\u4f7f\u7528\u8005\u8a8d\u8b49\u7684HTTP/HTTPS\u9023\u7d50\u70ba\u4e3b\u3002"
       },
       "applicationSuite": {
         "label": "Application Suite",
-        "description": "This key contains the name of the 'suite' to which the software belongs."
+        "description": "\u672c\u9375\u5305\u542b\u8edf\u9ad4\u96b8\u5c6c\u7684\u300c\u8edf\u9ad4\u5957\u88dd\u300d\u540d\u7a31\u3002"
       },
       "landingURL": {
-        "label": "Landing Page URL",
-        "description": "If the url parameter does not serve a human readable or browsable page, but only serves source code to a source control client, with this key you have an option to specify a landing page. This page, ideally, is where your users will land when they will click a button labeled something like 'Go to the application source code'. In case the product provides an automated graphical installer, this URL can point to a page which contains a reference to the source code but also offers the download of such an installer."
+        "label": "\u5230\u9054\u7db2\u9801\u9023\u7d50",
+        "description": "\u82e5\u9023\u7d50\u53c3\u6578\u7121\u6cd5\u7522\u751f\u4eba\u985e\u53ef\u8b80\u6216\u700f\u89bd\u7684\u9801\u9762\uff0c\u800c\u53ea\u80fd\u63d0\u4f9b\u539f\u59cb\u78bc\u7d66\u539f\u59cb\u78bc\u63a7\u5236\u5ba2\u6236\u7aef \u3002\u53ea\u8981\u6709\u9375\uff0c\u60a8\u5c31\u80fd\u5920\u6307\u5b9a\u5230\u9054\u7db2\u9801\u3002\u5728\u7406\u60f3\u72c0\u6cc1\u4e0b\uff0c\u60a8\u7684\u7528\u6236\u5728\u6309\u4e0b\u7db2\u7ad9\u4e0a\u985e\u4f3c\u300c\u67e5\u770b\u61c9\u7528\u7a0b\u5f0f\u539f\u59cb\u78bc\u300d\u7684\u6309\u9215\u6642\uff0c\u5c31\u6703\u524d\u5f80\u8a72\u7db2\u9801\u3002\u5982\u679c\u7522\u54c1\u63d0\u4f9b\u81ea\u52d5\u5316\u5716\u5f62\u4ecb\u9762\u5b89\u88dd\u7a0b\u5f0f\uff0c\u6b64\u9023\u7d50\u80fd\u5920\u9023\u7d50\u4e00\u500b\u63d0\u5230\u539f\u59cb\u78bc\u4f46\u540c\u6642\u5141\u8a31\u4f7f\u7528\u8005\u4e0b\u8f09\u5b89\u88dd\u7a0b\u5f0f\u7684\u7db2\u9801\u3002"
       },
       "isBasedOn": {
-        "label": "Is Based On",
-        "description": "In case this software is a variant or a fork of another software, which might or might not contain a publiccode.yml file, this key will contain the url of the original project(s). The existence of this key identifies the fork as a software variant, descending from the specified repositories."
+        "label": "\u57fa\u790e",
+        "description": "\u82e5\u6b64\u8edf\u9ad4\u70ba\u53e6\u4e00\u8edf\u9ad4\u7684\u5206\u652f\uff0c\u8a72\u8edf\u9ad4\u53ef\u80fd\u6703\u4e5f\u53ef\u80fd\u4e0d\u6703\u5305\u542bpubliccode.yml\u6a94\u6848\uff0c\u56e0\u6b64\u672c\u9375\u5305\u542b\u539f\u59cb\u5c08\u6848\u7684\u9023\u7d50\u3002\u672c\u9375\u7684\u5b58\u5728\uff0c\u80fd\u5c07\u5206\u652f\u6a19\u793a\u70ba\u4f86\u81ea\u6307\u660e\u5132\u5b58\u5eab\u7684\u8edf\u9ad4\u7684\u8b8a\u7a2e\u3002"
       },
       "softwareVersion": {
-        "label": "Software Version",
-        "description": "This key contains the latest stable version number of the software. The version number is a string that is not meant to be interpreted and parsed but just displayed; parsers should not assume semantic versioning or any other specific version format."
+        "label": "\u8edf\u9ad4\u7248\u672c",
+        "description": "\u672c\u9375\u5305\u542b\u8edf\u9ad4\u7684\u6700\u65b0\u4e14\u7a69\u5b9a\u7684\u7248\u672c\u7de8\u865f\u3002\u7248\u672c\u7de8\u865f\u662f\u4e00\u500b\u5b57\u4e32\uff0c\u4e0d\u61c9\u8a72\u88ab\u89e3\u8b80\u6216\u5206\u6790\uff0c\u53ea\u61c9\u8a72\u88ab\u986f\u793a\u51fa\u4f86\u3002\u5206\u6790\u4eba\u54e1\u4e0d\u61c9\u8a72\u8a8d\u5b9a\u7248\u672c\u7de8\u865f\u6709\u4efb\u4f55\u8a9e\u610f\u5316\u547d\u540d\u65b9\u5f0f\u6216\u5176\u4ed6\u7279\u5b9a\u7248\u672c\u683c\u5f0f\u3002"
       },
       "logo": {
         "label": "Logo",
-        "description": "This key contains the logo of the software. Logos should be in vector format; raster formats are only allowed as a fallback. In this case, they should be transparent PNGs, minimum 1000px of width. Acceptable formats: SVG, SVGZ, PNG"
+        "description": "\u672c\u9375\u5305\u542b\u8edf\u9ad4\u6a19\u8a8c\u3002\u6a19\u8a8c\u61c9\u8a72\u63a1\u5411\u91cf\u5716\u6a94\u683c\u5f0f\uff0c\u9ede\u9663\u5716\u6a94\u53ea\u80fd\u7576\u4f5c\u5099\u4efd\u3002\u6a19\u8a8c\u5716\u6848\u61c9\u8a72\u662f\u900f\u660e\u7684PNG\u6a94\u6848\uff0c\u5bec\u5ea6\u6700\u4f4e\u70ba1000px\u3002\u53ef\u63a5\u53d7\u683c\u5f0f\uff1aSVG\u3001SVGZ\u8207PNG"
       },
       "monochromeLogo": {
         "label": "Logo Monochrome",
-        "description": "A monochromatic (black) logo. The logo should be in vector format; raster formats are only allowed as a fallback. In this case, they should be transparent PNGs, minimum 1000px of width. Acceptable formats: SVG, SVGZ, PNG"
+        "description": "\u55ae\u8272(\u9ed1\u767d)\u6a19\u8a8c\u3002\u6a19\u8a8c\u61c9\u8a72\u63a1\u5411\u91cf\u5716\u6a94\u683c\u5f0f\uff0c\u9ede\u9663\u5716\u6a94\u53ea\u80fd\u7576\u4f5c\u5099\u4efd\u3002\u6a19\u8a8c\u5716\u6848\u61c9\u8a72\u662f\u900f\u660e\u7684PNG\u6a94\u6848\uff0c\u5bec\u5ea6\u6700\u4f4e\u70ba1000px\u3002\u53ef\u63a5\u53d7\u683c\u5f0f\uff1aSVG\u3001SVGZ\u8207PNG"
       },
       "developmentStatus": {
-        "label": "Development Status",
-        "description": "Allowed values: concept, development, beta, stable, obsolete"
+        "label": "\u958b\u767c\u72c0\u614b",
+        "description": "\u5141\u8a31\u503c\uff1a \u6982\u5ff5\u3001\u958b\u767c\u3001\u6e2c\u8a66\u3001\u7a69\u5b9a\u3001\u6dd8\u6c70"
       },
       "softwareType": {
-        "label": "Software Type",
-        "description": "Allowed values: standalone, addon, library, configurationFiles"
+        "label": "\u8edf\u9ad4\u985e\u578b",
+        "description": "\u5141\u8a31\u503c\uff1a\u55ae\u6a5f\u7248\u3001\u5916\u639b\u3001\u51fd\u5f0f\u5eab\u8207\u914d\u7f6e\u6a94\u6848"
       },
       "roadmap": {
         "label": "Roadmap",
-        "description": "A link to a public roadmap of the software."
+        "description": "\u8edf\u9ad4\u516c\u5171\u8def\u5f91\u5716\u9023\u7d50\u3002"
       },
       "platforms": {
-        "label": "Platforms",
-        "description": "This key specifies which platform the software runs on. It is meant to describe the platforms that users will use to access and operate the software, rather than the platform the software itself runs on. Use the predefined values if possible. If the software runs on a platform for which a predefined value is not available, a different value can be used. Values: web, windows, mac, linux, ios, android. Human readable values outside this list are allowed."
+        "label": "\u5e73\u53f0",
+        "description": "\u672c\u9375\u6307\u660e\u8edf\u9ad4\u904b\u884c\u7684\u5e73\u53f0\u3002\u672c\u9375\u662f\u63cf\u8ff0\u4f7f\u7528\u8005\u70ba\u4e86\u4f7f\u7528\u8a72\u8edf\u9ad4\u800c\u5fc5\u9808\u4f7f\u7528\u7684\u5e73\u53f0\uff0c\u800c\u975e\u8edf\u9ad4\u672c\u8eab\u904b\u4f5c\u6642\u6240\u5728\u7684\u5e73\u53f0\u3002\u82e5\u53ef\u4ee5\uff0c\u8acb\u4ee5\u9810\u5b9a\u7fa9\u503c\u512a\u5148\u3002\u5982\u679c\u8edf\u9ad4\u57f7\u884c\u7684\u5e73\u53f0\u6c92\u6709\u9810\u5b9a\u7fa9\u503c\uff0c\u5247\u53ef\u4f7f\u7528\u4e0d\u540c\u7684\u503c\u3002\u503c\uff1aweb\u3001windows\u3001mac\u3001linux\u3001ios\u3001android\u3002\u53e6\u5916\u53ef\u4f7f\u7528\u5176\u4ed6\u4eba\u985e\u53ef\u8b80\u7684\u503c\u3002"
       },
       "categories": {
-        "label": "Category",
-        "description": "A list of words that can be used to describe the software and can help building catalogs of open software. Each tag must be in Unicode lowercase, and should not contain any Unicode whitespace character. The suggested character to separate multiple words is - (single dash). See also: description/[lang]/freeTags/"
+        "label": "\u985e\u5225",
+        "description": "\u7528\u65bc\u63cf\u8ff0\u8edf\u9ad4\u7684\u5b57\u8868\uff0c\u5e6b\u52a9\u6253\u9020\u958b\u6e90\u8edf\u9ad4\u7684\u76ee\u9304\u3002\u6bcf\u500b\u6a19\u7c64\u90fd\u5fc5\u9808\u662f\u63a1\u7528Unicode\u7de8\u78bc\u7684\u5c0f\u5beb\u5b57\u6bcd\uff0c\u4e14\u4e0d\u5f97\u5305\u542bUnicode\u7de8\u78bc\u7684\u7a7a\u767d\u5b57\u5143\u3002\u5efa\u8b70\u4f7f\u7528\u55ae\u4e00\u9023\u63a5\u865f\u300c-\u300d\u4f86\u5c07\u4e0d\u540c\u5b57\u8a5e\u9694\u958b\u3002\u8acb\u53c3\u95b1\uff1a description/[lang]/freeTags/"
       },
       "usedBy": {
-        "label": "Used By",
-        "description": "A list of the names of prominent public administrations (that will serve as testimonials) that are currently known to the software maintainer to be using this software. Parsers are encouraged to enhance this list also with other information that can obtain independently; for instance, a fork of a software, owned by an administration, could be used as a signal of usage of the software."
+        "label": "\u4f7f\u7528\u8005",
+        "description": "\u8edf\u9ad4\u7dad\u8b77\u4eba\u54e1\u77e5\u9053\u76ee\u524d\u6b63\u5728\u4f7f\u7528\u672c\u8edf\u9ad4\u7684\u4e3b\u8981\u516c\u5171\u884c\u653f\u6a5f\u95dc(\u53ef\u505a\u70ba\u898b\u8b49\u4eba)\u5217\u8868\u3002\u8a9e\u6cd5\u5206\u6790\u5668\u53ef\u4f7f\u7528\u5176\u4ed6\u7368\u7acb\u53d6\u5f97\u7684\u8cc7\u8a0a\uff0c\u52a0\u5165\u672c\u5217\u8868\u4e2d\uff0c\u50cf\u662f\u4e00\u500b\u884c\u653f\u6a5f\u95dc\u4f7f\u7528\u8a72\u8edf\u9ad4\u7684\u5206\u652f\uff0c\u5247\u53ef\u8996\u70ba\u8a72\u8edf\u9ad4\u7684\u4f7f\u7528\u4eba\u3002"
       },
       "inputTypes": {
         "label": "Input Types",
-        "description": "A list of Media Types (MIME Types) as mandated in RFC 6838 which the application can handle as output. In case the software does not support any input, you can skip this field or use application/x.empty."
+        "description": "RFC 6838\u898f\u5b9a\u7684\u5a92\u9ad4\u985e\u578b(MIME\u985e\u578b)\u5217\u8868\uff0c\u61c9\u7528\u7a0b\u5f0f\u53ef\u5c07\u5176\u8996\u70ba\u8f38\u51fa\u3002\u82e5\u8edf\u9ad4\u6c92\u6709\u652f\u63f4\u4efb\u4f55\u8f38\u5165\u529f\u80fd\uff0c\u60a8\u53ef\u8df3\u904e\u6b64\u6b04\u4f4d\u6216\u4f7f\u7528application/x.empty\u3002"
       },
       "outputTypes": {
         "label": "Output Types",
-        "description": "A list of Media Types (MIME Types) as mandated in RFC 6838 which the application can handle as output. In case the software does not support any output, you can skip this field or use application/x.empty."
+        "description": "RFC 6838\u898f\u5b9a\u7684\u5a92\u9ad4\u985e\u578b(MIME\u985e\u578b)\u5217\u8868\uff0c\u61c9\u7528\u7a0b\u5f0f\u53ef\u5c07\u5176\u8996\u70ba\u8f38\u51fa\u3002\u82e5\u8edf\u9ad4\u6c92\u6709\u652f\u63f4\u4efb\u4f55\u8f38\u51fa\u529f\u80fd\uff0c\u60a8\u53ef\u8df3\u904e\u6b64\u6b04\u4f4d\u6216\u4f7f\u7528application/x.empty\u3002"
       }
     }
   },
